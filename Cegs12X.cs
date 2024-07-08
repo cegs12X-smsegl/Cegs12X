@@ -30,6 +30,9 @@ namespace AeonHacs.Components
             HeaterController2 = Find<HC6Controller>("HeaterController2");
             HeaterController3 = Find<HC6Controller>("HeaterController3");
             HeaterController4 = Find<HC6Controller>("HeaterController4");
+            HeaterController5 = Find<HC6Controller>("HeaterController5");
+            HeaterController6 = Find<HC6Controller>("HeaterController6");
+            HeaterController7 = Find<HC6Controller>("HeaterController7");
             AmbientLog.AddNewValue("HC1.CJ", -1, "0.0",
                 () => HeaterController1.ColdJunctionTemperature);
             AmbientLog.AddNewValue("HC2.CJ", -1, "0.0",
@@ -38,6 +41,12 @@ namespace AeonHacs.Components
                 () => HeaterController3.ColdJunctionTemperature);
             AmbientLog.AddNewValue("HC4.CJ", -1, "0.0",
                 () => HeaterController4.ColdJunctionTemperature);
+            AmbientLog.AddNewValue("HC5.CJ", -1, "0.0",
+                () => HeaterController5.ColdJunctionTemperature);
+            AmbientLog.AddNewValue("HC6.CJ", -1, "0.0",
+                () => HeaterController6.ColdJunctionTemperature);
+            AmbientLog.AddNewValue("HC7.CJ", -1, "0.0",
+                () => HeaterController7.ColdJunctionTemperature);
 
 
             GRSTLog = Find<DataLog>("GRSampleTemperatureLog");
@@ -49,6 +58,12 @@ namespace AeonHacs.Components
             GR4 = Find<GraphiteReactor>("GR4");
             GR5 = Find<GraphiteReactor>("GR5");
             GR6 = Find<GraphiteReactor>("GR6");
+            GR7 = Find<GraphiteReactor>("GR7");
+            GR8 = Find<GraphiteReactor>("GR8");
+            GR9 = Find<GraphiteReactor>("GR9");
+            GR10 = Find<GraphiteReactor>("GR10");
+            GR11 = Find<GraphiteReactor>("GR11");
+            GR12 = Find<GraphiteReactor>("GR12");
             GRSTLog.AddNewValue("GR1.SampleTemperature", 1, "0.0",
                 () => GR1.SampleTemperature);
             GRSTLog.AddNewValue("GR2.SampleTemperature", 1, "0.0",
@@ -61,6 +76,18 @@ namespace AeonHacs.Components
                 () => GR5.SampleTemperature);
             GRSTLog.AddNewValue("GR6.SampleTemperature", 1, "0.0",
                 () => GR6.SampleTemperature);
+            GRSTLog.AddNewValue("GR7.SampleTemperature", 1, "0.0",
+                () => GR7.SampleTemperature);
+            GRSTLog.AddNewValue("GR8.SampleTemperature", 1, "0.0",
+                () => GR8.SampleTemperature);
+            GRSTLog.AddNewValue("GR9.SampleTemperature", 1, "0.0",
+                () => GR9.SampleTemperature);
+            GRSTLog.AddNewValue("GR10.SampleTemperature", 1, "0.0",
+                () => GR10.SampleTemperature);
+            GRSTLog.AddNewValue("GR11.SampleTemperature", 1, "0.0",
+                () => GR11.SampleTemperature);
+            GRSTLog.AddNewValue("GR12.SampleTemperature", 1, "0.0",
+                () => GR12.SampleTemperature);
 
             #endregion Logs
         }
@@ -112,11 +139,20 @@ namespace AeonHacs.Components
         public GraphiteReactor GR4 { get; set; }
         public GraphiteReactor GR5 { get; set; }
         public GraphiteReactor GR6 { get; set; }
+        public GraphiteReactor GR7 { get; set; }
+        public GraphiteReactor GR8 { get; set; }
+        public GraphiteReactor GR9 { get; set; }
+        public GraphiteReactor GR10 { get; set; }
+        public GraphiteReactor GR11 { get; set; }
+        public GraphiteReactor GR12 { get; set; }
 
         public HC6Controller HeaterController1 { get; set; }
         public HC6Controller HeaterController2 { get; set; }
         public HC6Controller HeaterController3 { get; set; }
         public HC6Controller HeaterController4 { get; set; }
+        public HC6Controller HeaterController5 { get; set; }
+        public HC6Controller HeaterController6 { get; set; }
+        public HC6Controller HeaterController7 { get; set; }
         public virtual double umolCinMC => ugCinMC.Value / gramsCarbonPerMole;
         public virtual ISection IM_CT { get; set; }
         public virtual ISection CT_VTT { get; set; }
@@ -252,8 +288,8 @@ namespace AeonHacs.Components
             ProcessDictionary["Close all Opened valves"] = CloseAllValves;
             ProcessDictionary["Exercise all LN Manifold valves"] = ExerciseLNValves;
             ProcessDictionary["Calibrate all multi-turn valves"] = CalibrateRS232Valves;
-            ProcessDictionary["Measure MC volume (KV in MCP1)"] = MeasureVolumeMC;
-            ProcessDictionary["Measure valve volumes (plug in MCP1)"] = MeasureValveVolumes;
+            ProcessDictionary["Measure MC volume (KV in MCP2)"] = MeasureVolumeMC;
+            ProcessDictionary["Measure valve volumes (plug in MCP2)"] = MeasureValveVolumes;
             ProcessDictionary["Measure remaining chamber volumes"] = MeasureRemainingVolumes;
             ProcessDictionary["Check GR H2 density ratios"] = CalibrateGRH2;
             ProcessDictionary["Measure Extraction efficiency"] = MeasureExtractEfficiency;
@@ -419,6 +455,12 @@ namespace AeonHacs.Components
             CalibrateManualHeater(Find<IHeater>("hIP4CCQ"), tc);
             CalibrateManualHeater(Find<IHeater>("hIP5CCQ"), tc);
             CalibrateManualHeater(Find<IHeater>("hIP6CCQ"), tc);
+            CalibrateManualHeater(Find<IHeater>("hIP7CCQ"), tc);
+            CalibrateManualHeater(Find<IHeater>("hIP8CCQ"), tc);
+            CalibrateManualHeater(Find<IHeater>("hIP9CCQ"), tc);
+            CalibrateManualHeater(Find<IHeater>("hIP10CCQ"), tc);
+            CalibrateManualHeater(Find<IHeater>("hIP11CCQ"), tc);
+            CalibrateManualHeater(Find<IHeater>("hIP12CCQ"), tc);
         }
 
 

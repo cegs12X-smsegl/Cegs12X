@@ -8,43 +8,36 @@
         mc:Ignorable="d"
         Background="{x:Null}">
 
-    <Canvas Width="225" Height="177">
-        <!-- BEGIN MKS pressure sensor version -->
-        <wpf:Chamber Component="Section.GM" HelpText="Graphite manifold" Canvas.Top="6"
-            Data="M43.5,0.5 v164
-                M43.5,4.5 h17 M43.5,30.5 h17 M43.5,56.5 h17 M43.5,108.5 h17 M43.5,134.5 h17 M43.5,160.5 h17
-                M43.5,82.5 h-43
-                M17.5,69.5 v30" />
+    <Canvas Width="225" Height="385">
+    	<!-- What does this next line do? -->
+        <wpf:Chamber Component="Section.GM" HelpText="Graphite manifold"/>
 
-        <Grid Canvas.Left="17.5" Canvas.Bottom="102" Background="Transparent" ClipToBounds="True"  RenderTransform="{wpf:AnchorTransform BottomCenter}"
-            wpf:View.Component="pGM" AutomationProperties.HelpText="Graphite manifold pressure">
-            <wpf:Mks722BHighPressure VerticalAlignment="Bottom" HorizontalAlignment="Center" />
-            <wpf:Pressure HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,29" IsHitTestVisible="False"
-                Component="pGM" ContentStringFormat="0" />
-        </Grid>
-        <!-- END MKS pressure sensor version -->
-        
-        <!-- BEGIN Port pressure sensor version -->
-        <!--<wpf:Chamber Component="Section.GM" HelpText="Graphite manifold" Canvas.Top="6"
-            Data="M43.5,0.5 v164
-                M43.5,4.5 h17 M43.5,30.5 h17 M43.5,56.5 h17 M43.5,108.5 h17 M43.5,134.5 h17 M43.5,160.5 h17
-                M43.5,82.5 h-43
-                M17.5,82.5 v17.5" />
+        <local:ManifoldHalf Canvas.Left="39" Canvas.Top="158" RenderTransform="{DynamicResource Flip}" Component="Section.GMR_GMC" HelpText="Graphite manifold" />
+        <local:ManifoldCenter Canvas.Top="175" Component="Section.GM" HelpText="Graphite manifold" />
+        <local:ManifoldHalf Canvas.Left="39" Canvas.Bottom="6" Component="Section.GML_GMC" HelpText="Graphite manifold" />
 
-        <Grid Canvas.Left="17.5" Canvas.Bottom="92" Background="Transparent" ClipToBounds="True"  RenderTransform="{wpf:AnchorTransform BottomCenter}"
+		<wpf:Valve Canvas.Left="34" Canvas.Top="157" Component="vGMR_GMC" HelpText="GMR-GMC valve" d:ValveState="Opened" />
+		<wpf:Valve Canvas.Left="34" Canvas.Bottom="157" Component="vGML_GMC" HelpText="GML-GMC valve" d:ValveState="Opened" />
+
+		<Grid Canvas.Left="17.5" Canvas.Bottom="197" Background="Transparent" ClipToBounds="True" RenderTransform="{wpf:AnchorTransform BottomCenter}"
             wpf:View.Component="pGM" AutomationProperties.HelpText="Graphite manifold pressure">
             <wpf:PortPressureSensor VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,-5" IsHitTestVisible="False" />
-            <wpf:Pressure HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,19" IsHitTestVisible="False"
+            <wpf:Pressure HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,38" IsHitTestVisible="False"
                 Component="pGM" ContentStringFormat="0" />
-        </Grid>-->
-        <!-- END Port pressure sensor version -->
+        </Grid>
 
-        <wpf:GraphiteReactor Orientation="Left" Canvas.Left="60" Canvas.Top="0" Component="GR6" HelpText="Graphite reactor 6" />
-        <wpf:GraphiteReactor Orientation="Left" Canvas.Left="60" Canvas.Top="26" Component="GR5" HelpText="Graphite reactor 5" />
-        <wpf:GraphiteReactor Orientation="Left" Canvas.Left="60" Canvas.Top="52" Component="GR4" HelpText="Graphite reactor 4" />
-        <wpf:GraphiteReactor Orientation="Left" Canvas.Left="60" Canvas.Top="104" Component="GR3" HelpText="Graphite reactor 3" />
-        <wpf:GraphiteReactor Orientation="Left" Canvas.Left="60" Canvas.Top="130" Component="GR2" HelpText="Graphite reactor 2" />
-        <wpf:GraphiteReactor Orientation="Left" Canvas.Left="60" Canvas.Top="156" Component="GR1" HelpText="Graphite reactor 1" />
+        <wpf:GraphiteReactor Orientation="Left" Canvas.Left="60" Canvas.Top="0" Component="GR12" HelpText="Graphite reactor 12" />
+        <wpf:GraphiteReactor Orientation="Left"  Canvas.Left="60" Canvas.Top="26" Component="GR11" HelpText="Graphite reactor 11" />
+        <wpf:GraphiteReactor Orientation="Left"  Canvas.Left="60" Canvas.Top="52" Component="GR10" HelpText="Graphite reactor 10" />
+        <wpf:GraphiteReactor Orientation="Left"  Canvas.Left="60" Canvas.Top="78" Component="GR9" HelpText="Graphite reactor 9" />
+        <wpf:GraphiteReactor Orientation="Left"  Canvas.Left="60" Canvas.Top="104" Component="GR8" HelpText="Graphite reactor 8" />
+        <wpf:GraphiteReactor Orientation="Left"  Canvas.Left="60" Canvas.Top="130" Component="GR7" HelpText="Graphite reactor 7" />
+        <wpf:GraphiteReactor Orientation="Left"  Canvas.Left="60" Canvas.Bottom="130" Component="GR6" HelpText="Graphite reactor 6" />
+        <wpf:GraphiteReactor Orientation="Left"  Canvas.Left="60" Canvas.Bottom="104" Component="GR5" HelpText="Graphite reactor 5" />
+        <wpf:GraphiteReactor Orientation="Left"  Canvas.Left="60" Canvas.Bottom="78" Component="GR4" HelpText="Graphite reactor 4" />
+        <wpf:GraphiteReactor Orientation="Left"  Canvas.Left="60" Canvas.Bottom="52" Component="GR3" HelpText="Graphite reactor 3" />
+        <wpf:GraphiteReactor Orientation="Left"  Canvas.Left="60" Canvas.Bottom="26" Component="GR2" HelpText="Graphite reactor 2" />
+        <wpf:GraphiteReactor Orientation="Left"  Canvas.Left="60" Canvas.Bottom="0" Component="GR1" HelpText="Graphite reactor 1" />
 
     </Canvas>
 </wpf:View>

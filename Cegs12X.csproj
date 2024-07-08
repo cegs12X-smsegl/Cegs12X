@@ -2,7 +2,7 @@
     <PropertyGroup>
         <AssemblyVersion>3.2.0.0</AssemblyVersion>
         <PackageVersion>$(AssemblyVersion)</PackageVersion>
-        <Title>Aeon Laboratories Cegs LL6 Application</Title>
+		<Title>Aeon Laboratories Cegs 12X Application</Title>
         <Description>HACS-based Carbon Extraction and Graphitization System</Description>
         <Company>Aeon Laboratories</Company>
         <Authors>Jim Wilson, Tyler Wilson</Authors>
