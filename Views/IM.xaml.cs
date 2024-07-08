@@ -1,7 +1,7 @@
 ﻿using AeonHacs.Wpf.Views;
 using System.Windows;
 
-namespace CegsLL6.Views
+namespace Cegs12X.Views
 {
     /// <summary>
     /// Interaction logic for IM.xaml
