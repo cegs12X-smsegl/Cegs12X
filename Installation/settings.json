@@ -3,7 +3,7 @@
   "AlertManager": {
     "Name": "AlertManager",
     "MinutesToSuppressSameMessage": 1440,
-    "PriorAlertMessage": "SwitchBank1.SerialController: No response to command z",
+    "PriorAlertMessage": "HeaterController3.SerialController: No response to command z",
     "AlertsEnabled": true
   },
   "ProcessSequences": {
@@ -6901,7 +6901,7 @@
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
-      "OnOffState": "On",
+      "OnOffState": "Off",
       "Temperature": 580.02,
       "Value": 580.02,
       "UnitSymbol": "°C",
@@ -6932,7 +6932,7 @@
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
-      "OnOffState": "On",
+      "OnOffState": "Off",
       "Temperature": 579.37,
       "Value": 579.37,
       "UnitSymbol": "°C",
@@ -7650,7 +7650,7 @@
       "LowVacuumRequiredPressure": 8.0,
       "StateStopwatch": {
         "IsRunning": true,
-        "Accumulated": 49076
+        "Accumulated": 101581
       },
       "IdleTimeout": 50
     }
@@ -8144,11 +8144,11 @@
       },
       "ProgressStopwatch": {
         "IsRunning": true,
-        "Accumulated": 655470082
+        "Accumulated": 655637629
       },
       "GraphitizationStopwatch": {
         "IsRunning": true,
-        "Accumulated": 3827235
+        "Accumulated": 3994782
       },
       "PriorPressure": 71.2,
       "PressurePeak": 556,
@@ -8176,11 +8176,11 @@
       },
       "ProgressStopwatch": {
         "IsRunning": true,
-        "Accumulated": 650435510
+        "Accumulated": 650603053
       },
       "GraphitizationStopwatch": {
         "IsRunning": true,
-        "Accumulated": 3827213
+        "Accumulated": 3994756
       },
       "PriorPressure": 48.300000000000004,
       "PressurePeak": 500,
@@ -8208,11 +8208,11 @@
       },
       "ProgressStopwatch": {
         "IsRunning": true,
-        "Accumulated": 124347754
+        "Accumulated": 124515297
       },
       "GraphitizationStopwatch": {
         "IsRunning": true,
-        "Accumulated": 3827211
+        "Accumulated": 3994754
       },
       "PriorPressure": 286.5,
       "PressurePeak": 1662,
@@ -8240,11 +8240,11 @@
       },
       "ProgressStopwatch": {
         "IsRunning": true,
-        "Accumulated": 117024476
+        "Accumulated": 117192019
       },
       "GraphitizationStopwatch": {
         "IsRunning": true,
-        "Accumulated": 3827210
+        "Accumulated": 3994753
       },
       "PriorPressure": 129.5,
       "PressurePeak": 914,
@@ -8272,11 +8272,11 @@
       },
       "ProgressStopwatch": {
         "IsRunning": true,
-        "Accumulated": 105330977
+        "Accumulated": 105498520
       },
       "GraphitizationStopwatch": {
         "IsRunning": true,
-        "Accumulated": 3827209
+        "Accumulated": 3994752
       },
       "PriorPressure": 124.5,
       "PressurePeak": 881,
@@ -8304,11 +8304,11 @@
       },
       "ProgressStopwatch": {
         "IsRunning": true,
-        "Accumulated": 92301472
+        "Accumulated": 92469014
       },
       "GraphitizationStopwatch": {
         "IsRunning": true,
-        "Accumulated": 3827209
+        "Accumulated": 3994751
       },
       "PriorPressure": 171.3,
       "PressurePeak": 1006,
@@ -8336,11 +8336,11 @@
       },
       "ProgressStopwatch": {
         "IsRunning": true,
-        "Accumulated": 87462459
+        "Accumulated": 87630001
       },
       "GraphitizationStopwatch": {
         "IsRunning": true,
-        "Accumulated": 3827208
+        "Accumulated": 3994750
       },
       "PriorPressure": 40.0,
       "PressurePeak": 61,
@@ -8368,11 +8368,11 @@
       },
       "ProgressStopwatch": {
         "IsRunning": true,
-        "Accumulated": 73366966
+        "Accumulated": 73534508
       },
       "GraphitizationStopwatch": {
         "IsRunning": true,
-        "Accumulated": 3827206
+        "Accumulated": 3994748
       },
       "PriorPressure": 94.30000000000001,
       "PressurePeak": 90,
@@ -8400,11 +8400,11 @@
       },
       "ProgressStopwatch": {
         "IsRunning": true,
-        "Accumulated": 67451466
+        "Accumulated": 67619008
       },
       "GraphitizationStopwatch": {
         "IsRunning": true,
-        "Accumulated": 3827204
+        "Accumulated": 3994746
       },
       "PriorPressure": 16.6,
       "PressurePeak": 18,
@@ -8419,7 +8419,7 @@
     "GR10": {
       "$type": "AeonHacs.Components.GraphiteReactor, AeonHacs.Core",
       "Name": "GR10",
-      "State": "WaitFinish",
+      "State": "WaitService",
       "Size": "Standard",
       "Sample": null,
       "Aliquot": 0,
@@ -8427,16 +8427,16 @@
       "SampleTemperatureOffset": 0,
       "SampleSetpoint": 580.0,
       "StateStopwatch": {
-        "IsRunning": true,
-        "Accumulated": 3223927
+        "IsRunning": false,
+        "Accumulated": 0
       },
       "ProgressStopwatch": {
         "IsRunning": true,
-        "Accumulated": 92180
+        "Accumulated": 259722
       },
       "GraphitizationStopwatch": {
         "IsRunning": true,
-        "Accumulated": 3825395
+        "Accumulated": 3992937
       },
       "PriorPressure": 114.30000000000001,
       "PressurePeak": 1572,
@@ -8451,7 +8451,7 @@
     "GR11": {
       "$type": "AeonHacs.Components.GraphiteReactor, AeonHacs.Core",
       "Name": "GR11",
-      "State": "WaitFinish",
+      "State": "WaitService",
       "Size": "Standard",
       "Sample": null,
       "Aliquot": 0,
@@ -8459,16 +8459,16 @@
       "SampleTemperatureOffset": 0,
       "SampleSetpoint": 580.0,
       "StateStopwatch": {
-        "IsRunning": true,
-        "Accumulated": 3217777
+        "IsRunning": false,
+        "Accumulated": 0
       },
       "ProgressStopwatch": {
         "IsRunning": true,
-        "Accumulated": 92679
+        "Accumulated": 260221
       },
       "GraphitizationStopwatch": {
         "IsRunning": true,
-        "Accumulated": 3824400
+        "Accumulated": 3991942
       },
       "PriorPressure": 312.6,
       "PressurePeak": 1667,
@@ -8496,11 +8496,11 @@
       },
       "ProgressStopwatch": {
         "IsRunning": true,
-        "Accumulated": 1265289601
+        "Accumulated": 1265457143
       },
       "GraphitizationStopwatch": {
         "IsRunning": true,
-        "Accumulated": 3827202
+        "Accumulated": 3994744
       },
       "PriorPressure": 202.10000000000002,
       "PressurePeak": 1604,
@@ -8513,989 +8513,1071 @@
       "VTColdfinger": null
     }
   },
-  "Sections": {
-    "VM": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "VM",
-      "MilliLiters": null,
-      "Chambers": [
-        "VM"
-      ],
-      "Ports": null,
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vHe_VM",
-        "vH2_VM",
-        "vCO2_VM",
-        "vO2_VM",
-        "vIMC_VM",
-        "vCT_VM",
-        "vGMC_VM",
-        "vLV",
-        "vHV"
-      ],
-      "InternalValves": null,
-      "PathToVacuum": null,
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
+    "Sections": {
+        "VM": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "VM",
+            "MilliLiters": null,
+            "Chambers": [
+                "VM"
+            ],
+            "Ports": null,
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vHe_VM",
+                "vH2_VM",
+                "vCO2_VM",
+                "vO2_VM",
+                "vIMC_VM",
+                "vCT_VM",
+                "vGMC_VM",
+                "vLV",
+                "vHV"
+            ],
+            "InternalValves": null,
+            "PathToVacuum": null,
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "IML": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "IML",
+            "MilliLiters": null,
+            "Chambers": [
+                "IML"
+            ],
+            "Ports": [
+                "IP1",
+                "IP2",
+                "IP3",
+                "IP4",
+                "IP5",
+                "IP6"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vIML_IMC"
+            ],
+            "InternalValves": null,
+            "PathToVacuum": [
+                "vIML_IMC",
+                "vIMC_VM"
+            ],
+            "PathToVacuumIsolation": [
+                "vIMR_IMC",
+                "vIMC_CT"
+            ],
+            "FlowManager": null
+        },
+        "IMR": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "IMR",
+            "MilliLiters": null,
+            "Chambers": [
+                "IMR"
+            ],
+            "Ports": [
+                "IP7",
+                "IP8",
+                "IP9",
+                "IP10",
+                "IP11",
+                "IP12"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vIMR_IMC"
+            ],
+            "InternalValves": null,
+            "PathToVacuum": [
+                "vIMR_IMC",
+                "vIMC_VM"
+            ],
+            "PathToVacuumIsolation": [
+                "vIML_IMC",
+                "vIMC_CT"
+            ],
+            "FlowManager": null
+        },
+        "IMC": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "IMC",
+            "MilliLiters": null,
+            "Chambers": [
+                "IMC"
+            ],
+            "Ports": null,
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vIML_IMC",
+                "vIMR_IMC",
+                "vIMC_CT"
+            ],
+            "InternalValves": null,
+            "PathToVacuum": [
+                "vIMC_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "CT": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "CT",
+            "MilliLiters": null,
+            "Chambers": [
+                "CT"
+            ],
+            "Ports": null,
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vIMC_CT",
+                "vCT_VTT",
+                "vCT_VM"
+            ],
+            "InternalValves": null,
+            "PathToVacuum": [
+                "vCT_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": "CTFlowManager"
+        },
+        "VTT": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "VTT",
+            "MilliLiters": null,
+            "Chambers": [
+                "VTT"
+            ],
+            "Ports": null,
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vCT_VTT",
+                "vVTT_MC"
+            ],
+            "InternalValves": null,
+            "PathToVacuum": [
+                "vCT_VTT",
+                "vCT_VM"
+            ],
+            "PathToVacuumIsolation": [
+                "vIMC_CT"
+            ],
+            "FlowManager": null
+        },
+        "MC": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "MC",
+            "MilliLiters": null,
+            "Chambers": [
+                "MC"
+            ],
+            "Ports": [
+                "MCP1",
+                "MCP2"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vVTT_MC",
+                "vMC_Split"
+            ],
+            "InternalValves": null,
+            "PathToVacuum": [
+                "vMC_Split",
+                "vSplit_GMC",
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": [
+                "vGML_GMC",
+                "vGMR_GMC"
+            ],
+            "FlowManager": null
+        },
+        "Split": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "Split",
+            "MilliLiters": null,
+            "Chambers": [
+                "Split"
+            ],
+            "Ports": [],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vMC_Split",
+                "vGML_GMC",
+                "vGMR_GMC"
+            ],
+            "InternalValves": null,
+            "PathToVacuum": [
+                "vSplit_GMC",
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": [
+                "vGML_GMC",
+                "vGMR_GMC"
+            ],
+            "FlowManager": null
+        },
+        "GML": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "GML",
+            "MilliLiters": null,
+            "Chambers": [
+                "GML"
+            ],
+            "Ports": [
+                "GR1",
+                "GR2",
+                "GR3",
+                "GR4",
+                "GR5",
+                "GR6"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vGML_GMC"
+            ],
+            "InternalValves": null,
+            "PathToVacuum": [
+                "vGML_GMC",
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": [
+                "vGMR_GMC",
+                "vSplit_GMC"
+            ],
+            "FlowManager": null
+        },
+        "GMR": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "GMR",
+            "MilliLiters": null,
+            "Chambers": [
+                "GMR"
+            ],
+            "Ports": [
+                "GR7",
+                "GR8",
+                "GR9",
+                "GR10",
+                "GR11",
+                "GR12"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vGMR_GMC"
+            ],
+            "InternalValves": null,
+            "PathToVacuum": [
+                "vGMR_GMC",
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": [
+                "vGML_GMC",
+                "vSplit_GMC"
+            ],
+            "FlowManager": null
+        },
+        "GMC": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "GMC",
+            "MilliLiters": null,
+            "Chambers": [
+                "GMC"
+            ],
+            "Ports": null,
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vSplit_GMC",
+                "vGML_GMC",
+                "vGMR_GMC",
+                "vGMC_VM"
+            ],
+            "InternalValves": null,
+            "PathToVacuum": [
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "GML_GMC": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "GML_GMC",
+            "MilliLiters": null,
+            "Chambers": [
+                "GMC",
+                "GML"
+            ],
+            "Ports": [
+                "GR1",
+                "GR2",
+                "GR3",
+                "GR4",
+                "GR5",
+                "GR6"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vGMR_GMC",
+                "vSplit_GMC",
+                "vGMC_VM"
+            ],
+            "InternalValves": [
+                "vGML_GMC"
+            ],
+            "PathToVacuum": [
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "GMR_GMC": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "GMR_GMC",
+            "MilliLiters": null,
+            "Chambers": [
+                "GMC",
+                "GMR"
+            ],
+            "Ports": [
+                "GR7",
+                "GR8",
+                "GR9",
+                "GR10",
+                "GR11",
+                "GR12"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vGML_GMC",
+                "vSplit_GMC",
+                "vGMC_VM"
+            ],
+            "InternalValves": [
+                "vGMR_GMC"
+            ],
+            "PathToVacuum": [
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "GM": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "GM",
+            "MilliLiters": null,
+            "Chambers": [
+                "GML",
+                "GMR",
+                "GMC"
+            ],
+            "Ports": [
+                "GR1",
+                "GR2",
+                "GR3",
+                "GR4",
+                "GR5",
+                "GR6",
+                "GR7",
+                "GR8",
+                "GR9",
+                "GR10",
+                "GR11",
+                "GR12"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vSplit_GMC",
+                "vGMC_VM"
+            ],
+            "InternalValves": [
+                "vGML_GMC",
+                "vGMR_GMC"
+            ],
+            "PathToVacuum": [
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "IM_MC": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "IM_MC",
+            "MilliLiters": null,
+            "Chambers": [
+                "IMC",
+                "CT",
+                "VTT",
+                "MC"
+            ],
+            "Ports": [
+                "IP1",
+                "IP2",
+                "IP3",
+                "IP4",
+                "IP5",
+                "IP6",
+                "IP7",
+                "IP8",
+                "IP9",
+                "IP10",
+                "IP11",
+                "IP12",
+                "MCP1",
+                "MCP2"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vMC_Split",
+                "vCT_VM",
+                "vIMC_VM"
+            ],
+            "InternalValves": [
+                "vIMC_CT",
+                "vCT_VTT",
+                "vVTT_MC"
+            ],
+            "PathToVacuum": [
+                "vCT_VM",
+                "vIMC_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "IML_IMC": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "IML_IMC",
+            "MilliLiters": null,
+            "Chambers": [
+                "IML",
+                "IMC"
+            ],
+            "Ports": [
+                "IP1",
+                "IP2",
+                "IP3",
+                "IP4",
+                "IP5",
+                "IP6"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vIMR_IMC",
+                "vIMC_CT",
+                "vIMC_VM"
+            ],
+            "InternalValves": [
+                "vIML_IMC"
+            ],
+            "PathToVacuum": [
+                "vIMC_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "IMR_IMC": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "IMR_IMC",
+            "MilliLiters": null,
+            "Chambers": [
+                "IMR",
+                "IMC"
+            ],
+            "Ports": [
+                "IP7",
+                "IP8",
+                "IP9",
+                "IP10",
+                "IP11",
+                "IP12"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vIML_IMC",
+                "vIMC_CT",
+                "vIMC_VM"
+            ],
+            "InternalValves": [
+                "vIMR_IMC"
+            ],
+            "PathToVacuum": [
+                "vIMC_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "IML_CT": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "IML_CT",
+            "MilliLiters": null,
+            "Chambers": [
+                "IML",
+                "IMC",
+                "CT"
+            ],
+            "Ports": [
+                "IP1",
+                "IP2",
+                "IP3",
+                "IP4",
+                "IP5",
+                "IP6"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vIMR_IMC",
+                "vCT_VTT",
+                "vCT_VM",
+                "vIMC_VM"
+            ],
+            "InternalValves": [
+                "vIML_IMC",
+                "vIMC_CT"
+            ],
+            "PathToVacuum": [
+                "vCT_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": "CTFlowManager"
+        },
+        "IMR_CT": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "IMR_CT",
+            "MilliLiters": null,
+            "Chambers": [
+                "IMR",
+                "IMC",
+                "CT"
+            ],
+            "Ports": [
+                "IP7",
+                "IP8",
+                "IP9",
+                "IP10",
+                "IP11",
+                "IP12"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vIML_IMC",
+                "vCT_VTT",
+                "vCT_VM",
+                "vIMC_VM"
+            ],
+            "InternalValves": [
+                "vIMR_IMC",
+                "vIMC_CT"
+            ],
+            "PathToVacuum": [
+                "vCT_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": "CTFlowManager"
+        },
+        "IM_CT": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "IM_CT",
+            "MilliLiters": null,
+            "Chambers": [
+                "IML",
+                "IMR",
+                "IMC",
+                "CT"
+            ],
+            "Ports": [
+                "IP1",
+                "IP2",
+                "IP3",
+                "IP4",
+                "IP5",
+                "IP6",
+                "IP7",
+                "IP8",
+                "IP9",
+                "IP10",
+                "IP11",
+                "IP12"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vCT_VTT",
+                "vCT_VM",
+                "vIMC_VM"
+            ],
+            "InternalValves": [
+                "vIMC_CT"
+            ],
+            "PathToVacuum": [
+                "vCT_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": "CTFlowManager"
+        },
+        "IM": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "IM",
+            "MilliLiters": null,
+            "Chambers": [
+                "IML",
+                "IMR",
+                "IMC"
+            ],
+            "Ports": [
+                "IP1",
+                "IP2",
+                "IP3",
+                "IP4",
+                "IP5",
+                "IP6",
+                "IP7",
+                "IP8",
+                "IP9",
+                "IP10",
+                "IP11",
+                "IP12"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vIMC_CT",
+                "vIMC_VM"
+            ],
+            "InternalValves": [
+                "vIML_IMC",
+                "vIMR_IMC"
+            ],
+            "PathToVacuum": [
+                "vIMC_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "CT_VTT": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "CT_VTT",
+            "MilliLiters": null,
+            "Chambers": [
+                "CT",
+                "VTT"
+            ],
+            "Ports": null,
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vIMC_CT",
+                "vVTT_MC",
+                "vCT_VM"
+            ],
+            "InternalValves": [
+                "vCT_VTT",
+                "vCTFlow"
+            ],
+            "PathToVacuum": [
+                "vCT_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "VTT_MC": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "VTT_MC",
+            "MilliLiters": null,
+            "Chambers": [
+                "VTT",
+                "MC"
+            ],
+            "Ports": [
+                "MCP1",
+                "MCP2"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vCT_VTT",
+                "vMC_Split"
+            ],
+            "InternalValves": [
+                "vVTT_MC"
+            ],
+            "PathToVacuum": [
+                "vMC_Split",
+                "vSplit_GMC",
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": [
+                "vGML_GMC",
+                "vGMR_GMC"
+            ],
+            "FlowManager": null
+        },
+        "MC_Split": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "MC_Split",
+            "MilliLiters": null,
+            "Chambers": [
+                "MC",
+                "Split"
+            ],
+            "Ports": [
+                "MCP1",
+                "MCP2"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vVTT_MC",
+                "vSplit_GMC"
+            ],
+            "InternalValves": [
+                "vMC_Split"
+            ],
+            "PathToVacuum": [
+                "vSplit_GMC",
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": [
+                "vGML_GMC",
+                "vGMR_GMC"
+            ],
+            "FlowManager": null
+        },
+        "MC_GM": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "MC_GM",
+            "MilliLiters": null,
+            "Chambers": [
+                "MC",
+                "GML",
+                "GMR",
+                "Split",
+                "GMC"
+            ],
+            "Ports": [
+                "GR1",
+                "GR2",
+                "GR3",
+                "GR4",
+                "GR5",
+                "GR6",
+                "GR7",
+                "GR8",
+                "GR9",
+                "GR10",
+                "GR11",
+                "GR12",
+                "MCP1",
+                "MCP2"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vVTT_MC",
+                "vGMC_VM"
+            ],
+            "InternalValves": [
+                "vMC_Split",
+                "vSplit_GMC",
+                "vGML_GMC",
+                "vGMR_GMC"
+            ],
+            "PathToVacuum": [
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "MC_GML_GMC": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "MC_GML_GMC",
+            "MilliLiters": null,
+            "Chambers": [
+                "MC",
+                "Split",
+                "GMC",
+                "GML"
+            ],
+            "Ports": [
+                "GR1",
+                "GR2",
+                "GR3",
+                "GR4",
+                "GR5",
+                "GR6"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vVTT_MC",
+                "vGMR_GMC",
+                "vGMC_VM"
+            ],
+            "InternalValves": [
+                "vMC_Split",
+                "vSplit_GMC",
+                "vGML_GMC"
+            ],
+            "PathToVacuum": [
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "MC_GMR_GMC": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "MC_GMR_GMC",
+            "MilliLiters": null,
+            "Chambers": [
+                "MC",
+                "Split",
+                "GMC",
+                "GMR"
+            ],
+            "Ports": [
+                "GR7",
+                "GR8",
+                "GR9",
+                "GR10",
+                "GR11",
+                "GR12"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vVTT_MC",
+                "vGML_GMC",
+                "vGMC_VM"
+            ],
+            "InternalValves": [
+                "vMC_Split",
+                "vSplit_GMC",
+                "vGMR_GMC"
+            ],
+            "PathToVacuum": [
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "MCA": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "MCA",
+            "MilliLiters": null,
+            "Chambers": [
+                "MC",
+                "MCP1",
+                "MCP2"
+            ],
+            "Ports": null,
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vVTT_MC",
+                "vMC_Split"
+            ],
+            "InternalValves": [
+                "vMC_MCP1",
+                "vMC_MCP2"
+            ],
+            "PathToVacuum": [
+                "vMC_Split",
+                "vSplit_GMC",
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": [
+                "vGML_GMC",
+                "vGMR_GMC"
+            ],
+            "FlowManager": null
+        },
+        "MCA_GMC": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "MCA_GMC",
+            "MilliLiters": null,
+            "Chambers": [
+                "MC",
+                "MCP1",
+                "MCP2",
+                "Split",
+                "GMC"
+            ],
+            "Ports": null,
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vVTT_MC",
+                "vGML_GMC",
+                "vGMR_GMC",
+                "vGMC_VM"
+            ],
+            "InternalValves": [
+                "vMC_MCP1",
+                "vMC_MCP2",
+                "vMC_Split",
+                "vSplit_GMC"
+            ],
+            "PathToVacuum": [
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "MCA_GM": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "MCA_GM",
+            "MilliLiters": null,
+            "Chambers": [
+                "MC",
+                "MCP1",
+                "MCP2",
+                "Split",
+                "GML",
+                "GMR",
+                "GMC"
+            ],
+            "Ports": [
+                "GR1",
+                "GR2",
+                "GR3",
+                "GR4",
+                "GR5",
+                "GR6",
+                "GR7",
+                "GR8",
+                "GR9",
+                "GR10",
+                "GR11",
+                "GR12"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vVTT_MC",
+                "vGMC_VM"
+            ],
+            "InternalValves": [
+                "vMC_Split",
+                "vSplit_GMC",
+                "vMC_MCP1",
+                "vMC_MCP2"
+            ],
+            "PathToVacuum": [
+                "vGMC_VM"
+            ],
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "VM_IM": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "VM_IM",
+            "MilliLiters": null,
+            "Chambers": [
+                "VM",
+                "IML",
+                "IMR",
+                "IMC"
+            ],
+            "Ports": [
+                "IP1",
+                "IP2",
+                "IP3",
+                "IP4",
+                "IP5",
+                "IP6",
+                "IP7",
+                "IP8",
+                "IP9",
+                "IP10",
+                "IP11",
+                "IP12"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vHe_VM",
+                "vH2_VM",
+                "vCO2_VM",
+                "vO2_VM",
+                "vCT_VM",
+                "vGMC_VM",
+                "vIMC_CT",
+                "vLV",
+                "vHV"
+            ],
+            "InternalValves": [
+                "vIML_IMC",
+                "vIMR_IMC",
+                "vIMC_VM"
+            ],
+            "PathToVacuum": null,
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "VM_GM": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "VM_GM",
+            "MilliLiters": null,
+            "Chambers": [
+                "VM",
+                "GML",
+                "GMR",
+                "GMC"
+            ],
+            "Ports": [
+                "GR1",
+                "GR2",
+                "GR3",
+                "GR4",
+                "GR5",
+                "GR6",
+                "GR7",
+                "GR8",
+                "GR9",
+                "GR10",
+                "GR11",
+                "GR12"
+            ],
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vHe_VM",
+                "vH2_VM",
+                "vCO2_VM",
+                "vO2_VM",
+                "vIMC_VM",
+                "vCT_VM",
+                "vSplit_GMC",
+                "vLV",
+                "vHV"
+            ],
+            "InternalValves": [
+                "vGML_GMC",
+                "vGMR_GMC",
+                "vGMC_VM"
+            ],
+            "PathToVacuum": null,
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        },
+        "VM_Split": {
+            "$type": "AeonHacs.Components.Section, AeonHacs.Core",
+            "Name": "VM_Split",
+            "MilliLiters": null,
+            "Chambers": [
+                "VM",
+                "GMC",
+                "Split"
+            ],
+            "Ports": null,
+            "VacuumSystem": "VacuumSystem1",
+            "Isolation": [
+                "vHe_VM",
+                "vH2_VM",
+                "vCO2_VM",
+                "vO2_VM",
+                "vIMC_VM",
+                "vCT_VM",
+                "vMC_Split",
+                "vLV",
+                "vHV",
+                "vGML_GMC",
+                "vGMR_GMC"
+            ],
+            "InternalValves": [
+                "vSplit_GMC",
+                "vGMC_VM"
+            ],
+            "PathToVacuum": null,
+            "PathToVacuumIsolation": null,
+            "FlowManager": null
+        }
     },
-    "IML": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "IML",
-      "MilliLiters": null,
-      "Chambers": [
-        "IML"
-      ],
-      "Ports": [
-        "IP1",
-        "IP2",
-        "IP3",
-        "IP4",
-        "IP5",
-        "IP6"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vIML_IMC"
-      ],
-      "InternalValves": null,
-      "PathToVacuum": [
-        "vIML_IMC",
-        "vIMC_VM"
-      ],
-      "PathToVacuumIsolation": [
-        "vIMR_IMC",
-        "vIMC_CT"
-      ],
-      "FlowManager": null
-    },
-    "IMR": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "IMR",
-      "MilliLiters": null,
-      "Chambers": [
-        "IMR"
-      ],
-      "Ports": [
-        "IP7",
-        "IP8",
-        "IP9",
-        "IP10",
-        "IP11",
-        "IP12"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vIMR_IMC"
-      ],
-      "InternalValves": null,
-      "PathToVacuum": [
-        "vIMR_IMC",
-        "vIMC_VM"
-      ],
-      "PathToVacuumIsolation": [
-        "vIML_IMC",
-        "vIMC_CT"
-      ],
-      "FlowManager": null
-    },
-    "IMC": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "IMC",
-      "MilliLiters": null,
-      "Chambers": [
-        "IMC"
-      ],
-      "Ports": null,
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vIML_IMC",
-        "vIMR_IMC",
-        "vIMC_CT"
-      ],
-      "InternalValves": null,
-      "PathToVacuum": [
-        "vIMC_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "CT": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "CT",
-      "MilliLiters": null,
-      "Chambers": [
-        "CT"
-      ],
-      "Ports": null,
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vIMC_CT",
-        "vCT_VTT",
-        "vCT_VM"
-      ],
-      "InternalValves": null,
-      "PathToVacuum": [
-        "vCT_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": "CTFlowManager"
-    },
-    "VTT": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "VTT",
-      "MilliLiters": null,
-      "Chambers": [
-        "VTT"
-      ],
-      "Ports": null,
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vCT_VTT",
-        "vVTT_MC"
-      ],
-      "InternalValves": null,
-      "PathToVacuum": [
-        "vCT_VTT",
-        "vCT_VM"
-      ],
-      "PathToVacuumIsolation": [
-        "vIMC_CT"
-      ],
-      "FlowManager": null
-    },
-    "MC": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "MC",
-      "MilliLiters": null,
-      "Chambers": [
-        "MC"
-      ],
-      "Ports": [
-        "MCP1",
-        "MCP2"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vVTT_MC",
-        "vMC_Split"
-      ],
-      "InternalValves": null,
-      "PathToVacuum": [
-        "vMC_Split",
-        "vSplit_GMC",
-        "vGMC_VM"
-      ],
-      "PathToVacuumIsolation": [
-        "vGML_GMC",
-        "vGMR_GMC"
-      ],
-      "FlowManager": null
-    },
-    "Split": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "Split",
-      "MilliLiters": null,
-      "Chambers": [
-        "Split"
-      ],
-      "Ports": [],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vMC_Split",
-        "vGML_GMC",
-        "vGMR_GMC"
-      ],
-      "InternalValves": null,
-      "PathToVacuum": [
-        "vSplit_GMC",
-        "vGMC_VM"
-      ],
-      "PathToVacuumIsolation": [
-        "vGML_GMC",
-        "vGMR_GMC"
-      ],
-      "FlowManager": null
-    },
-    "GML_GMC": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "GML_GMC",
-      "MilliLiters": null,
-      "Chambers": [
-        "GMC",
-        "GML"
-      ],
-      "Ports": [
-        "GR1",
-        "GR2",
-        "GR3",
-        "GR4",
-        "GR5",
-        "GR6"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vGMR_GMC",
-        "vSplit_GMC",
-        "vGMC_VM"
-      ],
-      "InternalValves": [
-        "vGML_GMC"
-      ],
-      "PathToVacuum": [
-        "vGMC_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "GMR_GMC": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "GMR_GMC",
-      "MilliLiters": null,
-      "Chambers": [
-        "GMC",
-        "GMR"
-      ],
-      "Ports": [
-        "GR7",
-        "GR8",
-        "GR9",
-        "GR10",
-        "GR11",
-        "GR12"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vGML_GMC",
-        "vSplit_GMC",
-        "vGMC_VM"
-      ],
-      "InternalValves": [
-        "vGMR_GMC"
-      ],
-      "PathToVacuum": [
-        "vGMC_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "GM": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "GM",
-      "MilliLiters": null,
-      "Chambers": [
-        "GML",
-        "GMR",
-        "GMC"
-      ],
-      "Ports": [
-        "GR1",
-        "GR2",
-        "GR3",
-        "GR4",
-        "GR5",
-        "GR6",
-        "GR7",
-        "GR8",
-        "GR9",
-        "GR10",
-        "GR11",
-        "GR12"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vSplit_GMC",
-        "vGMC_VM"
-      ],
-      "InternalValves": [
-        "vGML_GMC",
-        "vGMR_GMC"
-      ],
-      "PathToVacuum": [
-        "vGMC_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "IM_MC": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "IM_MC",
-      "MilliLiters": null,
-      "Chambers": [
-        "IMC",
-        "CT",
-        "VTT",
-        "MC"
-      ],
-      "Ports": [
-        "IP1",
-        "IP2",
-        "IP3",
-        "IP4",
-        "IP5",
-        "IP6",
-        "IP7",
-        "IP8",
-        "IP9",
-        "IP10",
-        "IP11",
-        "IP12",
-        "MCP1",
-        "MCP2"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vMC_Split",
-        "vCT_VM",
-        "vIMC_VM"
-      ],
-      "InternalValves": [
-        "vIMC_CT",
-        "vCT_VTT",
-        "vVTT_MC"
-      ],
-      "PathToVacuum": [
-        "vCT_VM",
-        "vIMC_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "IML_IMC": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "IML_IMC",
-      "MilliLiters": null,
-      "Chambers": [
-        "IML",
-        "IMC"
-      ],
-      "Ports": [
-        "IP1",
-        "IP2",
-        "IP3",
-        "IP4",
-        "IP5",
-        "IP6"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vIMR_IMC",
-        "vIMC_CT",
-        "vIMC_VM"
-      ],
-      "InternalValves": [
-        "vIML_IMC"
-      ],
-      "PathToVacuum": [
-        "vIMC_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "IMR_IMC": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "IMR_IMC",
-      "MilliLiters": null,
-      "Chambers": [
-        "IMR",
-        "IMC"
-      ],
-      "Ports": [
-        "IP7",
-        "IP8",
-        "IP9",
-        "IP10",
-        "IP11",
-        "IP12"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vIML_IMC",
-        "vIMC_CT",
-        "vIMC_VM"
-      ],
-      "InternalValves": [
-        "vIMR_IMC"
-      ],
-      "PathToVacuum": [
-        "vIMC_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "IML_CT": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "IML_CT",
-      "MilliLiters": null,
-      "Chambers": [
-        "IML",
-        "IMC",
-        "CT"
-      ],
-      "Ports": [
-        "IP1",
-        "IP2",
-        "IP3",
-        "IP4",
-        "IP5",
-        "IP6"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vIMR_IMC",
-        "vCT_VTT",
-        "vCT_VM",
-        "vIMC_VM"
-      ],
-      "InternalValves": [
-        "vIML_IMC",
-        "vIMC_CT"
-      ],
-      "PathToVacuum": [
-        "vCT_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": "CTFlowManager"
-    },
-    "IMR_CT": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "IMR_CT",
-      "MilliLiters": null,
-      "Chambers": [
-        "IMR",
-        "IMC",
-        "CT"
-      ],
-      "Ports": [
-        "IP7",
-        "IP8",
-        "IP9",
-        "IP10",
-        "IP11",
-        "IP12"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vIML_IMC",
-        "vCT_VTT",
-        "vCT_VM",
-        "vIMC_VM"
-      ],
-      "InternalValves": [
-        "vIMR_IMC",
-        "vIMC_CT"
-      ],
-      "PathToVacuum": [
-        "vCT_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": "CTFlowManager"
-    },
-    "IM_CT": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "IM_CT",
-      "MilliLiters": null,
-      "Chambers": [
-        "IML",
-        "IMR",
-        "IMC",
-        "CT"
-      ],
-      "Ports": [
-        "IP1",
-        "IP2",
-        "IP3",
-        "IP4",
-        "IP5",
-        "IP6",
-        "IP7",
-        "IP8",
-        "IP9",
-        "IP10",
-        "IP11",
-        "IP12"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vCT_VTT",
-        "vCT_VM",
-        "vIMC_VM"
-      ],
-      "InternalValves": [
-        "vIMC_CT"
-      ],
-      "PathToVacuum": [
-        "vCT_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": "CTFlowManager"
-    },
-    "IM": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "IM",
-      "MilliLiters": null,
-      "Chambers": [
-        "IML",
-        "IMR",
-        "IMC"
-      ],
-      "Ports": [
-        "IP1",
-        "IP2",
-        "IP3",
-        "IP4",
-        "IP5",
-        "IP6",
-        "IP7",
-        "IP8",
-        "IP9",
-        "IP10",
-        "IP11",
-        "IP12"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vIMC_CT",
-        "vIMC_VM"
-      ],
-      "InternalValves": [
-        "vIML_IMC",
-        "vIMR_IMC"
-      ],
-      "PathToVacuum": [
-        "vIMC_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "CT_VTT": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "CT_VTT",
-      "MilliLiters": null,
-      "Chambers": [
-        "CT",
-        "VTT"
-      ],
-      "Ports": null,
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vIMC_CT",
-        "vVTT_MC",
-        "vCT_VM"
-      ],
-      "InternalValves": [
-        "vCT_VTT",
-        "vCTFlow"
-      ],
-      "PathToVacuum": [
-        "vCT_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "VTT_MC": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "VTT_MC",
-      "MilliLiters": null,
-      "Chambers": [
-        "VTT",
-        "MC"
-      ],
-      "Ports": [
-        "MCP1",
-        "MCP2"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vCT_VTT",
-        "vMC_Split"
-      ],
-      "InternalValves": [
-        "vVTT_MC"
-      ],
-      "PathToVacuum": [
-        "vMC_Split",
-        "vSplit_GMC",
-        "vGMC_VM"
-      ],
-      "PathToVacuumIsolation": [
-        "vGML_GMC",
-        "vGMR_GMC"
-      ],
-      "FlowManager": null
-    },
-    "MC_Split": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "MC_Split",
-      "MilliLiters": null,
-      "Chambers": [
-        "MC",
-        "Split"
-      ],
-      "Ports": [
-        "MCP1",
-        "MCP2"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vVTT_MC",
-        "vSplit_GMC"
-      ],
-      "InternalValves": [
-        "vMC_Split"
-      ],
-      "PathToVacuum": [
-        "vSplit_GMC",
-        "vGMC_VM"
-      ],
-      "PathToVacuumIsolation": [
-        "vGML_GMC",
-        "vGMR_GMC"
-      ],
-      "FlowManager": null
-    },
-    "MC_GM": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "MC_GM",
-      "MilliLiters": null,
-      "Chambers": [
-        "MC",
-        "GML",
-        "GMR",
-        "Split",
-        "GMC"
-      ],
-      "Ports": [
-        "GR1",
-        "GR2",
-        "GR3",
-        "GR4",
-        "GR5",
-        "GR6",
-        "GR7",
-        "GR8",
-        "GR9",
-        "GR10",
-        "GR11",
-        "GR12",
-        "MCP1",
-        "MCP2"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vVTT_MC",
-        "vGMC_VM"
-      ],
-      "InternalValves": [
-        "vMC_Split",
-        "vSplit_GMC",
-        "vGML_GMC",
-        "vGMR_GMC"
-      ],
-      "PathToVacuum": [
-        "vGMC_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "MC_GML_GMC": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "MC_GML_GMC",
-      "MilliLiters": null,
-      "Chambers": [
-        "MC",
-        "Split",
-        "GMC",
-        "GML"
-      ],
-      "Ports": [
-        "GR1",
-        "GR2",
-        "GR3",
-        "GR4",
-        "GR5",
-        "GR6"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vVTT_MC",
-        "vGMR_GMC",
-        "vGMC_VM"
-      ],
-      "InternalValves": [
-        "vMC_Split",
-        "vSplit_GMC",
-        "vGML_GMC"
-      ],
-      "PathToVacuum": [
-        "vGMC_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "MC_GMR_GMC": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "MC_GMR_GMC",
-      "MilliLiters": null,
-      "Chambers": [
-        "MC",
-        "Split",
-        "GMC",
-        "GMR"
-      ],
-      "Ports": [
-        "GR7",
-        "GR8",
-        "GR9",
-        "GR10",
-        "GR11",
-        "GR12"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vVTT_MC",
-        "vGML_GMC",
-        "vGMC_VM"
-      ],
-      "InternalValves": [
-        "vMC_Split",
-        "vSplit_GMC",
-        "vGMR_GMC"
-      ],
-      "PathToVacuum": [
-        "vGMC_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "MCA": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "MCA",
-      "MilliLiters": null,
-      "Chambers": [
-        "MC",
-        "MCP1",
-        "MCP2"
-      ],
-      "Ports": null,
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vVTT_MC",
-        "vMC_Split"
-      ],
-      "InternalValves": [
-        "vMC_MCP1",
-        "vMC_MCP2"
-      ],
-      "PathToVacuum": [
-        "vMC_Split",
-        "vSplit_GMC",
-        "vGMC_VM"
-      ],
-      "PathToVacuumIsolation": [
-        "vGML_GMC",
-        "vGMR_GMC"
-      ],
-      "FlowManager": null
-    },
-    "MCA_GMC": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "MCA_GMC",
-      "MilliLiters": null,
-      "Chambers": [
-        "MC",
-        "MCP1",
-        "MCP2",
-        "Split",
-        "GMC"
-      ],
-      "Ports": null,
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vVTT_MC",
-        "vGML_GMC",
-        "vGMR_GMC",
-        "vGMC_VM"
-      ],
-      "InternalValves": [
-        "vMC_MCP1",
-        "vMC_MCP2",
-        "vMC_Split",
-        "vSplit_GMC"
-      ],
-      "PathToVacuum": [
-        "vGMC_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "MCA_GM": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "MCA_GM",
-      "MilliLiters": null,
-      "Chambers": [
-        "MC",
-        "MCP1",
-        "MCP2",
-        "Split",
-        "GML",
-        "GMR",
-        "GMC"
-      ],
-      "Ports": [
-        "GR1",
-        "GR2",
-        "GR3",
-        "GR4",
-        "GR5",
-        "GR6",
-        "GR7",
-        "GR8",
-        "GR9",
-        "GR10",
-        "GR11",
-        "GR12"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vVTT_MC",
-        "vGMC_VM"
-      ],
-      "InternalValves": [
-        "vMC_Split",
-        "vSplit_GMC",
-        "vMC_MCP1",
-        "vMC_MCP2"
-      ],
-      "PathToVacuum": [
-        "vGMC_VM"
-      ],
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "VM_IM": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "VM_IM",
-      "MilliLiters": null,
-      "Chambers": [
-        "VM",
-        "IML",
-        "IMR",
-        "IMC"
-      ],
-      "Ports": [
-        "IP1",
-        "IP2",
-        "IP3",
-        "IP4",
-        "IP5",
-        "IP6",
-        "IP7",
-        "IP8",
-        "IP9",
-        "IP10",
-        "IP11",
-        "IP12"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vHe_VM",
-        "vH2_VM",
-        "vCO2_VM",
-        "vO2_VM",
-        "vCT_VM",
-        "vGMC_VM",
-        "vIMC_CT",
-        "vLV",
-        "vHV"
-      ],
-      "InternalValves": [
-        "vIML_IMC",
-        "vIMR_IMC",
-        "vIMC_VM"
-      ],
-      "PathToVacuum": null,
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "VM_GM": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "VM_GM",
-      "MilliLiters": null,
-      "Chambers": [
-        "VM",
-        "GML",
-        "GMR",
-        "GMC"
-      ],
-      "Ports": [
-        "GR1",
-        "GR2",
-        "GR3",
-        "GR4",
-        "GR5",
-        "GR6",
-        "GR7",
-        "GR8",
-        "GR9",
-        "GR10",
-        "GR11",
-        "GR12"
-      ],
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vHe_VM",
-        "vH2_VM",
-        "vCO2_VM",
-        "vO2_VM",
-        "vIMC_VM",
-        "vCT_VM",
-        "vSplit_GMC",
-        "vLV",
-        "vHV"
-      ],
-      "InternalValves": [
-        "vGML_GMC",
-        "vGMR_GMC",
-        "vGMC_VM"
-      ],
-      "PathToVacuum": null,
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    },
-    "VM_Split": {
-      "$type": "AeonHacs.Components.Section, AeonHacs.Core",
-      "Name": "VM_Split",
-      "MilliLiters": null,
-      "Chambers": [
-        "VM",
-        "GMC",
-        "Split"
-      ],
-      "Ports": null,
-      "VacuumSystem": "VacuumSystem1",
-      "Isolation": [
-        "vHe_VM",
-        "vH2_VM",
-        "vCO2_VM",
-        "vO2_VM",
-        "vIMC_VM",
-        "vCT_VM",
-        "vMC_Split",
-        "vLV",
-        "vHV",
-        "vGML_GMC",
-        "vGMR_GMC"
-      ],
-      "InternalValves": [
-        "vSplit_GMC",
-        "vGMC_VM"
-      ],
-      "PathToVacuum": null,
-      "PathToVacuumIsolation": null,
-      "FlowManager": null
-    }
-  },
   "GasSupplies": {
     "H2.GM": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",

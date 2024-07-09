@@ -14,7 +14,7 @@
 
             <!--Vacuum manifold pressure-->
             <Canvas Canvas.Left="25" Canvas.Top="23" Width="44" Height="51" Background="Transparent"
-            wpf:View.Component="pVM" AutomationProperties.HelpText="Vacuum manifold pressure">
+                wpf:View.Component="pVM" AutomationProperties.HelpText="Vacuum manifold pressure">
                 <wpf:EdwardsAimX Canvas.Bottom="0" Component="pVM_IG" HelpText="Low-pressure manometer" />
                 <wpf:Mks901P Canvas.Right="0" Canvas.Bottom="0" Component="pVM_HP" HelpText="High-pressure manometer" />
                 <wpf:Pressure Canvas.Left="22" Canvas.Bottom="29" RenderTransform="{wpf:AnchorTransform BottomCenter}" IsHitTestVisible="False"

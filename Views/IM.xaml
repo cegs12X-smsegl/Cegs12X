@@ -3,22 +3,19 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:local="clr-namespace:Cegs12X.Views"
     xmlns:wpf="http://schemas.aeonhacs.com/wpf"
     mc:Ignorable="d"
     Background="{x:Null}"
     >
 
 	<Canvas Width="250" Height="385">
-		<!--This must be a render transform to maintain full hit test... so positioning isn't as clean as in the GM-->
-		<!--Canvas.Right=39-Width=39-22=17 Canvas.Top=6+Height=6+152=158-->
-		<local:ManifoldHalf Canvas.Right="17" Canvas.Top="158" RenderTransform="{DynamicResource Down}"
-		    Component="Section.IML_IMC" HelpText="Inlet manifold" />
-		<local:ManifoldCenter Canvas.Right="0" Canvas.Top="175" LayoutTransform="{DynamicResource Mirror}"
-            Component="Section.IM" HelpText="Inlet manifold"/>
-        <local:ManifoldHalf Canvas.Right="17" Canvas.Bottom="6" RenderTransform="{DynamicResource Mirror}"
-		    Component="Section.IMR_IMC" HelpText="Inlet manifold" />
-
+        <wpf:Chamber Component="Section.IML" HelpText="Inlet manifold left" Canvas.Top="0" Canvas.Left="189"
+            Data="M17.5,6.5 v151 M17.5,10.5 h-17 M17.5,36.5 h-17 M17.5,62.5 h-17 M17.5,88.5 h-17 M17.5,114.5 h-17 M17.5,140.5 h-17" />
+        <wpf:Chamber Component="Section.IMR" HelpText="Inlet manifold right" Canvas.Bottom="-6" Canvas.Left="189"
+            Data="M17.5,0.5 v151 M17.5,17.5 h-17 M17.5,43.5 h-17 M17.5,69.5 h-17 M17.5,95.5 h-17 M17.5,121.5 h-17 M17.5,147.5 h-17" />
+        <wpf:Chamber Component="Section.IMC" HelpText="Inlet manifold center" Canvas.Top="192" Canvas.Right="0"
+            Data="M0.5,0.5 h43 M0.5,-16.5 v34 M26.5,0.5 v17" />
+        
 		<wpf:Valve Canvas.Right="34" Canvas.Top="157" 
             Component="vIML_IMC" HelpText="IML-IMC valve" d:ValveState="Opened" />
 		<wpf:Valve Canvas.Right="34" Canvas.Bottom="157" 
