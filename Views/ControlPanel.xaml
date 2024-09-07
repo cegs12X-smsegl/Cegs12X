@@ -125,9 +125,9 @@
                 
                 <local:VS Canvas.Left="223" Canvas.Top="258"/>
                 <wpf:IM12 Canvas.Left="0" Canvas.Top="49" />
-                <wpf:CT Canvas.Left="267" Canvas.Top="228" />
+                <wpf:CT Canvas.Left="267" Canvas.Top="228" PressureSensorType="MKS_722_LP"/>
                 <wpf:VTT Canvas.Left="389" Canvas.Top="237" />
-                <wpf:MC Canvas.Left="441" Canvas.Top="202" />
+                <wpf:MC Canvas.Left="441" Canvas.Top="202" PressureSensorType="MKS_DMB"/>
                 <wpf:Split Data="M0,0 h21" Canvas.Left="493" Canvas.Top="237" />
                 <wpf:GM12 Canvas.Left="532" Canvas.Top="49" />
 

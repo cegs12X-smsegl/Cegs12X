@@ -30,7 +30,7 @@
         </Canvas>
 
         <!--Vacuum system-->
-        <wpf:VacuumSystem Canvas.Left="95" Canvas.Top="104" />
+        <wpf:VacuumSystem PressureSensorType="MKS_901P" Canvas.Left="95" Canvas.Top="104" />
 
         <wpf:StackingPanel Height="55" Canvas.Left="182" Canvas.Top="196.5" Orientation="Right" Spacing="5"
             wpf:View.Component="Ambient" AutomationProperties.HelpText="Ambient" Background="Transparent">

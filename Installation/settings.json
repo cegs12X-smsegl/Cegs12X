@@ -454,31 +454,30 @@
       "LogEverything": false,
       "Devices": {
         "do0": "pVM_IG.Enable",
-        "do1": "fan3",
-        "do2": "fan1",
-        "do3": "fan2",
+        "do1": "fan1",
+        "do2": "fan2",
+        "do3": "fan3",
         "do4": "fan4",
         "ai0": "pMC",
         "ai2": "pCT",
-        "ai3": "pVM_IG",
-        "ai96": "pVM_LP",
-        "ai104": "pGR6",
-        "ai105": "pGR5",
-        "ai106": "pGR4",
-        "ai107": "pGR3",
-        "ai108": "pGR2",
-        "ai109": "pGR1",
-        "ai110": "pGR12",
-        "ai111": "pGR11",
-        "ai112": "pGR10",
-        "ai113": "pGR9",
-        "ai114": "pGR8",
-        "ai115": "pGR7",
-        "ai116": "tMC",
-        "ai117": "pGM",
-        "ai118": "pIM",
-        "ai119": "pForeline",
-        "ai120": "pVM_GP",
+        "ai96": "pForeline",
+        "ai97": "pVM_IG",
+        "ai98": "pVM_HP",
+        "ai104": "pGR1",
+        "ai105": "tMC",
+        "ai106": "pGR7",
+        "ai107": "pGR8",
+        "ai108": "pGR9",
+        "ai109": "pGR10",
+        "ai110": "pGR11",
+        "ai111": "pGR12",
+        "ai112": "pGR2",
+        "ai113": "pGR3",
+        "ai114": "pGR4",
+        "ai115": "pGR5",
+        "ai116": "pGR6",
+        "ai117": "pIM",
+        "ai118": "pGM",
         "ai123": "DC5VPower",
         "ai124": "DC5VMainsDetect",
         "ai125": "pAmbient",
@@ -523,27 +522,21 @@
         "TokenizeCommands": true,
         "IgnoreUnexpectedResponses": true,
         "ResponseTimeout": 250,
-        "TooManyResponseTimeouts": 10,
+        "TooManyResponseTimeouts": 20,
         "IdleTimeout": 1000
       },
       "IdleTimeout": -1,
       "LogEverything": false,
       "Devices": {
-        "h0": "hIP12CCS",
-        "h1": "hIP12CCQ",
-        "h2": "hIP11CCS",
-        "h3": "hIP11CCQ",
-        "h4": "hIP10CCS",
-        "h5": "hIP10CCQ",
-        "t0": "tIP12CCS",
-        "t2": "tIP11CCS",
-        "t4": "tIP10CCS",
-        "t6": "tGML",
-        "t7": "tLNManifold1",
-        "t8": "tLN_GR6",
-        "t9": "tLN_GR5",
-        "t10": "tLN_GR2",
-        "t11": "tLN_GR3"
+        "h0": "hIP3CCS",
+        "h1": "hIP3CCQ",
+        "h2": "hIP2CCS",
+        "h3": "hIP2CCQ",
+        "h4": "hIP1CCS",
+        "h5": "hIP1CCQ",
+        "t0": "tIP3CCS",
+        "t2": "tIP2CCS",
+        "t4": "tIP1CCS"
       }
     },
     "HeaterController2": {
@@ -583,27 +576,21 @@
         "TokenizeCommands": true,
         "IgnoreUnexpectedResponses": true,
         "ResponseTimeout": 250,
-        "TooManyResponseTimeouts": 10,
+        "TooManyResponseTimeouts": 20,
         "IdleTimeout": 1000
       },
       "IdleTimeout": -1,
       "LogEverything": false,
       "Devices": {
-        "h0": "hIP9CCS",
-        "h1": "hIP9CCQ",
-        "h2": "hIP8CCS",
-        "h3": "hIP8CCQ",
-        "h4": "hIP7CCS",
-        "h5": "hIP7CCQ",
-        "t0": "tIP9CCS",
-        "t2": "tIP8CCS",
-        "t4": "tIP7CCS",
-        "t6": "tGMR",
-        "t7": "tLNOverflow",
-        "t8": "tLN_GR12",
-        "t9": "tLNManifold2",
-        "t10": "tLN_GR1",
-        "t11": "tLN_GR4"
+        "h0": "hIP6CCS",
+        "h1": "hIP6CCQ",
+        "h2": "hIP5CCS",
+        "h3": "hIP5CCQ",
+        "h4": "hIP4CCS",
+        "h5": "hIP4CCQ",
+        "t0": "tIP6CCS",
+        "t2": "tIP5CCS",
+        "t4": "tIP4CCS"
       }
     },
     "HeaterController3": {
@@ -643,26 +630,21 @@
         "TokenizeCommands": true,
         "IgnoreUnexpectedResponses": true,
         "ResponseTimeout": 250,
-        "TooManyResponseTimeouts": 10,
+        "TooManyResponseTimeouts": 20,
         "IdleTimeout": 1000
       },
       "IdleTimeout": -1,
       "LogEverything": false,
       "Devices": {
-        "h0": "hIP6CCS",
-        "h1": "hIP6CCQ",
-        "h2": "hIP5CCS",
-        "h3": "hIP5CCQ",
-        "h4": "hIP4CCS",
-        "h5": "hIP4CCQ",
-        "t0": "tIP6CCS",
-        "t2": "tIP5CCS",
-        "t4": "tIP4CCS",
-        "t6": "tLN_GR11",
-        "t7": "tLN_GR10",
-        "t8": "tLN_GR9",
-        "t9": "tLN_GR8",
-        "t10": "tLN_GR7"
+        "h0": "hIP9CCS",
+        "h1": "hIP9CCQ",
+        "h2": "hIP8CCS",
+        "h3": "hIP8CCQ",
+        "h4": "hIP7CCS",
+        "h5": "hIP7CCQ",
+        "t0": "tIP9CCS",
+        "t2": "tIP8CCS",
+        "t4": "tIP7CCS"
       }
     },
     "HeaterController4": {
@@ -702,21 +684,21 @@
         "TokenizeCommands": true,
         "IgnoreUnexpectedResponses": true,
         "ResponseTimeout": 250,
-        "TooManyResponseTimeouts": 10,
+        "TooManyResponseTimeouts": 20,
         "IdleTimeout": 1000
       },
       "IdleTimeout": -1,
       "LogEverything": false,
       "Devices": {
-        "h0": "hIP3CCS",
-        "h1": "hIP3CCQ",
-        "h2": "hIP2CCS",
-        "h3": "hIP2CCQ",
-        "h4": "hIP1CCS",
-        "h5": "hIP1CCQ",
-        "t0": "tIP3CCS",
-        "t2": "tIP2CCS",
-        "t4": "tIP1CCS"
+        "h0": "hIP12CCS",
+        "h1": "hIP12CCQ",
+        "h2": "hIP11CCS",
+        "h3": "hIP11CCQ",
+        "h4": "hIP10CCS",
+        "h5": "hIP10CCQ",
+        "t0": "tIP12CCS",
+        "t2": "tIP11CCS",
+        "t4": "tIP10CCS"
       }
     },
     "HeaterController5": {
@@ -756,7 +738,7 @@
         "TokenizeCommands": true,
         "IgnoreUnexpectedResponses": true,
         "ResponseTimeout": 250,
-        "TooManyResponseTimeouts": 10,
+        "TooManyResponseTimeouts": 20,
         "IdleTimeout": 1000
       },
       "IdleTimeout": -1,
@@ -773,7 +755,15 @@
         "t2": "tGR3",
         "t3": "tGR4",
         "t4": "tGR5",
-        "t5": "tGR6"
+        "t5": "tGR6",
+        "t6": "tLN_GR6",
+        "t7": "tLN_GR5",
+        "t8": "tLN_GR4",
+        "t9": "tLN_GR2",
+        "t10": "tLN_GR3",
+        "t11": "tLN_GR1",
+        "t12": "tGMR",
+        "t13": "tLNOverflow"
       }
     },
     "HeaterController6": {
@@ -813,7 +803,7 @@
         "TokenizeCommands": true,
         "IgnoreUnexpectedResponses": true,
         "ResponseTimeout": 250,
-        "TooManyResponseTimeouts": 10,
+        "TooManyResponseTimeouts": 20,
         "IdleTimeout": 1000
       },
       "IdleTimeout": -1,
@@ -830,7 +820,14 @@
         "t2": "tGR9",
         "t3": "tGR10",
         "t4": "tGR11",
-        "t5": "tGR12"
+        "t5": "tGR12",
+        "t6": "tLN_GR12",
+        "t7": "tLN_GR11",
+        "t8": "tLN_GR10",
+        "t9": "tLN_GR9",
+        "t10": "tLN_GR7",
+        "t11": "tLN_GR8",
+        "t12": "tGML"
       }
     },
     "HeaterController7": {
@@ -870,7 +867,7 @@
         "TokenizeCommands": true,
         "IgnoreUnexpectedResponses": true,
         "ResponseTimeout": 250,
-        "TooManyResponseTimeouts": 10,
+        "TooManyResponseTimeouts": 20,
         "IdleTimeout": 1000
       },
       "IdleTimeout": -1,
@@ -878,150 +875,19 @@
       "Devices": {
         "h0": "hVTC",
         "t0": "tVTC",
-        "t6": "tLN_VTC",
-        "t7": "tVTC_top",
+        "t6": "tLNManifold2",
+        "t7": "tLNManifold1",
         "t8": "tVTC_wire",
-        "t9": "tLN_MC",
-        "t10": "tLN_CT"
+        "t9": "tVTC_top",
+        "t10": "tLN_VTC",
+        "t11": "tLN_MC",
+        "t12": "tLN_CT"
       }
     },
     "ActuatorController1": {
       "$type": "AeonHacs.Components.ActuatorController, AeonHacs.Core",
       "Name": "ActuatorController1",
       "Channels": 56,
-      "AeonServo": {
-        "Name": "AeonServo",
-        "SerialDevice": {
-          "RtsMode": "Enabled",
-          "PortSettings": {
-            "PortName": "COM16",
-            "BaudRate": 115200,
-            "Parity": "None",
-            "DataBits": 8,
-            "StopBits": "One",
-            "Handshake": "None"
-          },
-          "CrcConfig": {
-            "InitialValue": 65535,
-            "Polynomial": 55982,
-            "ExpectedResidue": 33472,
-            "PostInvert": true,
-            "MsBitFirst": false,
-            "MsByteFirst": false,
-            "TermChar": 3,
-            "OmitTermChar": false
-          },
-          "MillisecondsBetweenMessages": 10,
-          "MillisecondsBetweenBytes": -1,
-          "MaximumMillisecondsSilenceInMessage": 5,
-          "BinaryComms": false,
-          "EscapeLoggedData": false
-        },
-        "LogCommands": false,
-        "LogResponses": false,
-        "LogEverything": false,
-        "TokenizeCommands": true,
-        "IgnoreUnexpectedResponses": true,
-        "ResponseTimeout": 90,
-        "TooManyResponseTimeouts": 10,
-        "IdleTimeout": -1
-      },
-      "SerialController": {
-        "Name": "ActuatorController1.SerialController",
-        "SerialDevice": {
-          "RtsMode": "Enabled",
-          "PortSettings": {
-            "PortName": "COM15",
-            "BaudRate": 115200,
-            "Parity": "None",
-            "DataBits": 8,
-            "StopBits": "One",
-            "Handshake": "None"
-          },
-          "CrcConfig": {
-            "InitialValue": 65535,
-            "Polynomial": 55982,
-            "ExpectedResidue": 33472,
-            "PostInvert": true,
-            "MsBitFirst": false,
-            "MsByteFirst": false,
-            "TermChar": 3,
-            "OmitTermChar": false
-          },
-          "MillisecondsBetweenMessages": 3,
-          "MillisecondsBetweenBytes": -1,
-          "MaximumMillisecondsSilenceInMessage": 5,
-          "BinaryComms": false,
-          "EscapeLoggedData": false
-        },
-        "LogCommands": false,
-        "LogResponses": false,
-        "LogEverything": false,
-        "TokenizeCommands": true,
-        "IgnoreUnexpectedResponses": true,
-        "ResponseTimeout": 200,
-        "TooManyResponseTimeouts": 10,
-        "IdleTimeout": -1
-      },
-      "IdleTimeout": -1,
-      "LogEverything": false,
-      "Devices": {
-        "0": "vHe_VM",
-        "2": "vCO2Flow",
-        "1": "vH2Flow",
-        "3": "vHeFlow",
-        "4": "vIP5_IML",
-        "5": "vIP6_IML",
-        "6": "vIML_IMC",
-        "7": "vCTFlow",
-        "8": "vHV",
-        "9": "vB",
-        "10": "vR",
-        "26": "vCO2_VM",
-        "12": "vIP2_IML",
-        "13": "vIP3_IML",
-        "14": "vIP4_IML",
-        "15": "vCT_VM",
-        "16": "vCT_VTT",
-        "17": "vO2_VM",
-        "18": "vMC_MCP2",
-        "19": "vMC_MCP1",
-        "20": "vIP1_IML",
-        "21": "vIP10_IMR",
-        "22": "vIP11_IMR",
-        "23": "vIP12_IMR",
-        "24": "vVTT_MC",
-        "25": "vMC_Split",
-        "11": "vH2_VM",
-        "27": "vLV",
-        "28": "vIMC_CT",
-        "29": "vIP7_IMR",
-        "30": "vIMC_VM",
-        "31": "vIMR_IMC",
-        "32": "vGR7_GMR",
-        "33": "vGR8_GMR",
-        "34": "vGR9_GMR",
-        "35": "vGR10_GMR",
-        "36": "vGR11_GMR",
-        "37": "vGR12_GMR",
-        "38": "vIP8_IMR",
-        "39": "vIP9_IMR",
-        "40": "vGR4_GML",
-        "41": "vGR5_GML",
-        "42": "vGR6_GML",
-        "43": "vSplit_GMC",
-        "44": "vGML_GMC",
-        "45": "vGR1_GML",
-        "46": "vGMC_VM",
-        "47": "vGMR_GMC",
-        "48": "vGR2_GML",
-        "49": "vGR3_GML"
-      }
-    },
-    "ActuatorController2": {
-      "$type": "AeonHacs.Components.ActuatorController, AeonHacs.Core",
-      "Name": "ActuatorController2",
-      "Channels": 24,
       "AeonServo": {
         "Name": "AeonServo",
         "SerialDevice": {
@@ -1056,11 +922,11 @@
         "TokenizeCommands": true,
         "IgnoreUnexpectedResponses": true,
         "ResponseTimeout": 90,
-        "TooManyResponseTimeouts": 5,
+        "TooManyResponseTimeouts": 20,
         "IdleTimeout": -1
       },
       "SerialController": {
-        "Name": "ActuatorController2.SerialController",
+        "Name": "ActuatorController1.SerialController",
         "SerialDevice": {
           "RtsMode": "Enabled",
           "PortSettings": {
@@ -1093,38 +959,71 @@
         "TokenizeCommands": true,
         "IgnoreUnexpectedResponses": true,
         "ResponseTimeout": 200,
-        "TooManyResponseTimeouts": 10,
+        "TooManyResponseTimeouts": 20,
         "IdleTimeout": -1
       },
       "IdleTimeout": -1,
       "LogEverything": false,
       "Devices": {
-        "0": "vLN_MC",
-        "1": "vLN_GR10",
-        "2": "vLN_GR9",
-        "3": "vLN_GR8",
-        "4": "vLN_GR7",
-        "5": "vLN_GR2",
-        "6": "vLN_GR1",
-        "7": "vLN_Spare3",
-        "8": "vLN_Spare2",
-        "9": "vLN_GR12",
-        "10": "vLN_VTC",
-        "11": "vLN_CT",
-        "12": "vLN_GR11",
-        "13": "vLN_GR6",
-        "14": "vLN_GR5",
-        "15": "vLN_GR4",
-        "16": "vLN_GR3",
-        "17": "vLN_Spare1"
+        "0": "vVTT_MC",
+        "1": "vMC_MCP1",
+        "2": "vMC_MCP2",
+        "3": "vO2_VM",
+        "4": "vHe_VM",
+        "5": "vHeFlow",
+        "6": "vH2_VM",
+        "7": "vH2Flow",
+        "8": "vIP1_IML",
+        "9": "vMC_Split",
+        "10": "vCTFlow",
+        "11": "vCO2_VM",
+        "12": "vCO2Flow",
+        "13": "vLV",
+        "14": "vHV",
+        "15": "vCT_VTT",
+        "16": "vIMC_CT",
+        "17": "vIML_IMC",
+        "18": "vIMR_IMC",
+        "19": "vIMC_VM",
+        "20": "vIP6_IML",
+        "21": "vIP5_IML",
+        "22": "vCT_VM",
+        "23": "vIP3_IML",
+        "24": "vIP12_IMR",
+        "25": "vIP11_IMR",
+        "26": "vIP10_IMR",
+        "27": "vIP9_IMR",
+        "28": "vIP8_IMR",
+        "29": "vIP7_IMR",
+        "30": "vIP4_IML",
+        "31": "vIP2_IML",
+        "32": "vSplit_GMC",
+        "33": "vGR6_GML",
+        "34": "vGR5_GML",
+        "35": "vGR4_GML",
+        "36": "vGR3_GML",
+        "37": "vGR2_GML",
+        "38": "vGR1_GML",
+        "39": "vGML_GMC",
+        "40": "vGR12_GMR",
+        "41": "vGR11_GMR",
+        "42": "vGR10_GMR",
+        "43": "vGR9_GMR",
+        "44": "vGR8_GMR",
+        "45": "vGR7_GMR",
+        "46": "vGMC_VM",
+        "47": "vGMR_GMC",
+        "48": "vB",
+        "49": "vR"
       }
     },
-    "SwitchBank": {
-      "$type": "AeonHacs.Components.SwitchBank, AeonHacs.Core",
-      "Name": "SwitchBank",
-      "Channels": 32,
+    "ActuatorController2": {
+      "$type": "AeonHacs.Components.ActuatorController, AeonHacs.Core",
+      "Name": "ActuatorController2",
+      "Channels": 24,
+      "AeonServo": null,
       "SerialController": {
-        "Name": "SwitchBank.SerialController",
+        "Name": "ActuatorController2.SerialController",
         "SerialDevice": {
           "RtsMode": "Enabled",
           "PortSettings": {
@@ -1157,32 +1056,96 @@
         "TokenizeCommands": true,
         "IgnoreUnexpectedResponses": true,
         "ResponseTimeout": 200,
-        "TooManyResponseTimeouts": 10,
+        "TooManyResponseTimeouts": 20,
         "IdleTimeout": -1
       },
       "IdleTimeout": -1,
       "LogEverything": false,
       "Devices": {
-        "0": "vAir_Spare2",
-        "1": "vAir_Spare3",
-        "2": "vAir_GR1",
-        "3": "vAir_GR2",
+        "0": "vLN_Spare1",
+        "1": "vLN_Spare2",
+        "2": "vLN_Spare3",
+        "3": "vLN_GR1",
+        "4": "vLN_GR2",
+        "5": "vLN_GR3",
+        "6": "vLN_GR4",
+        "7": "vLN_GR6",
+        "8": "vLN_GR7",
+        "9": "vLN_GR8",
+        "10": "vLN_GR9",
+        "11": "vLN_GR10",
+        "12": "vLN_MC",
+        "13": "vLN_GR11",
+        "14": "vLN_VTC",
+        "15": "vLN_CT",
+        "18": "vLN_GR12",
+        "19": "vLN_GR5"
+      }
+    },
+    "SwitchBank": {
+      "$type": "AeonHacs.Components.SwitchBank, AeonHacs.Core",
+      "Name": "SwitchBank",
+      "Channels": 32,
+      "SerialController": {
+        "Name": "SwitchBank.SerialController",
+        "SerialDevice": {
+          "RtsMode": "Enabled",
+          "PortSettings": {
+            "PortName": "COM16",
+            "BaudRate": 115200,
+            "Parity": "None",
+            "DataBits": 8,
+            "StopBits": "One",
+            "Handshake": "None"
+          },
+          "CrcConfig": {
+            "InitialValue": 65535,
+            "Polynomial": 55982,
+            "ExpectedResidue": 33472,
+            "PostInvert": true,
+            "MsBitFirst": false,
+            "MsByteFirst": false,
+            "TermChar": 3,
+            "OmitTermChar": false
+          },
+          "MillisecondsBetweenMessages": 3,
+          "MillisecondsBetweenBytes": -1,
+          "MaximumMillisecondsSilenceInMessage": 5,
+          "BinaryComms": false,
+          "EscapeLoggedData": false
+        },
+        "LogCommands": false,
+        "LogResponses": false,
+        "LogEverything": false,
+        "TokenizeCommands": true,
+        "IgnoreUnexpectedResponses": true,
+        "ResponseTimeout": 200,
+        "TooManyResponseTimeouts": 20,
+        "IdleTimeout": -1
+      },
+      "IdleTimeout": -1,
+      "LogEverything": false,
+      "Devices": {
+        "0": "vAir_GR6",
+        "1": "vAir_GR5",
+        "2": "vAir_GR4",
+        "3": "vAir_GR3",
+        "4": "vAir_GR2",
+        "5": "vAir_GR1",
+        "6": "vAir_Spare3",
+        "7": "vAir_Spare2",
         "8": "vAir_Spare1",
-        "9": "vAir_GR3",
-        "10": "vAir_GR4",
-        "11": "vAir_GR8",
-        "12": "vAir_GR5",
-        "13": "vAir_GR9",
+        "9": "vAir_GR9",
+        "10": "vAir_GR8",
+        "11": "vAir_GR7",
+        "12": "vAir_GR11",
+        "13": "vAir_MC",
         "14": "vAir_GR10",
-        "15": "vAir_GR6",
-        "16": "vAir_GR7",
-        "17": "vAir_MC",
-        "18": "vAir_GR11",
-        "19": "vAir_CT",
-        "20": "vAir_VTC",
-        "21": "vAir_GR12",
-        "22": "vLNSupply1",
-        "23": "vLNSupply2"
+        "15": "vAir_GR12",
+        "16": "vAir_CT",
+        "17": "vAir_VTC",
+        "18": "vLNSupply1",
+        "19": "vLNSupply2"
       }
     }
   },
@@ -1244,31 +1207,6 @@
       "Rising": 0.0,
       "ZerosToAverage": 30
     },
-    "pVM_HP": {
-      "$type": "AeonHacs.Components.DualManometer, AeonHacs.Core",
-      "Name": "pVM_HP",
-      "HighPressureManometer": "pVM_GP",
-      "LowPressureManometer": "pVM_LP",
-      "MaximumLowPressure": 3.0,
-      "MinimumHighPressure": 4.0,
-      "SwitchpointPressure": 0.0,
-      "MillisecondsToValid": 0,
-      "MinimumMillisecondsOff": 0,
-      "UnitSymbol": "Torr",
-      "Ratiometric": false,
-      "MaxValue": 0.0,
-      "MinValue": 0.0,
-      "Sensitivity": 1E-05,
-      "Resolution": 0.01,
-      "ResolutionIsProportional": true,
-      "Filter": null,
-      "Conversion": null,
-      "RateOfChange": null,
-      "Stable": 0.0,
-      "Falling": 0.0,
-      "Rising": 0.0,
-      "ZerosToAverage": 30
-    },
     "pMC": {
       "$type": "AeonHacs.Components.AIManometer, AeonHacs.Core",
       "Name": "pMC",
@@ -1294,12 +1232,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "ZeroOffset",
-            "Argument": "x-0.01882954922701803"
+            "Argument": "x-0.0016075297009450929"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "CompensatedGain",
-            "Argument": "x*14.97"
+            "Argument": "x*14.974"
           }
         ]
       },
@@ -1339,12 +1277,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "ZeroOffset",
-            "Argument": "x-0.04442339820451597"
+            "Argument": "x-0.02369410223927196"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "CompensatedGain",
-            "Argument": "x*1.222"
+            "Argument": "x*1.224"
           }
         ]
       },
@@ -1366,17 +1304,17 @@
       "AnalogInputMode": "SingleEnded",
       "MinimumVoltage": 0.0,
       "UnitSymbol": "Torr",
-      "Ratiometric": true,
+      "Ratiometric": false,
       "MaxValue": 1600.0,
       "MinValue": 0.0,
-      "Sensitivity": 0.1,
-      "Resolution": 0.1,
-      "ResolutionIsProportional": false,
+      "Sensitivity": 0.0001,
+      "Resolution": 0.01,
+      "ResolutionIsProportional": true,
       "Filter": {
         "$type": "AeonHacs.ExponentialFilter, AeonHacs.Core",
         "Name": "",
         "Power": 2.0,
-        "StepChange": 0.02
+        "StepChange": 0.08
       },
       "Conversion": {
         "Name": "VoltageCorrection",
@@ -1384,12 +1322,23 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "ZeroOffset",
-            "Argument": "x-0.4551656107217941"
+            "Argument": "x+0.075"
           },
           {
-            "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
-            "Name": "Gain",
-            "Argument": "x*385.1716"
+            "$type": "AeonHacs.Utilities.OperationSet, AeonHacs.Core",
+            "Name": "ValueConversion",
+            "Operations": [
+              {
+                "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
+                "Name": "SensorReference",
+                "Argument": "x-6"
+              },
+              {
+                "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
+                "Name": "SensorExponentialGain",
+                "Argument": "10^x"
+              }
+            ]
           }
         ]
       },
@@ -1399,9 +1348,9 @@
         "MaxIntervalMilliseconds": 1000.0,
         "Resolution": 0.01
       },
-      "Stable": 0.5,
-      "Falling": -0.5,
-      "Rising": 0.5,
+      "Stable": 0.1,
+      "Falling": -0.1,
+      "Rising": 0.1,
       "ZerosToAverage": 30
     },
     "pIM": {
@@ -1429,12 +1378,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "ZeroOffset",
-            "Argument": "x-0.49672712557899834"
+            "Argument": "x-0.4549011751781905"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "Gain",
-            "Argument": "x*384.5671"
+            "Argument": "x*392.8141"
           }
         ]
       },
@@ -1474,12 +1423,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "ZeroOffset",
-            "Argument": "x-0.48237299956116486"
+            "Argument": "x-0.4685288560178256"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "Gain",
-            "Argument": "x*386.028"
+            "Argument": "x*392.5827"
           }
         ]
       },
@@ -1494,60 +1443,15 @@
       "Rising": 0.5,
       "ZerosToAverage": 30
     },
-    "pVM_GP": {
+    "pVM_HP": {
       "$type": "AeonHacs.Components.AIManometer, AeonHacs.Core",
-      "Name": "pVM_GP",
-      "MaximumVoltage": 10.0,
-      "AnalogInputMode": "SingleEnded",
-      "MinimumVoltage": 0.0,
-      "UnitSymbol": "Torr",
-      "Ratiometric": true,
-      "MaxValue": 1600.0,
-      "MinValue": 0.0,
-      "Sensitivity": 0.1,
-      "Resolution": 0.1,
-      "ResolutionIsProportional": false,
-      "Filter": {
-        "$type": "AeonHacs.ExponentialFilter, AeonHacs.Core",
-        "Name": "",
-        "Power": 2.0,
-        "StepChange": 0.02
-      },
-      "Conversion": {
-        "Name": "VoltageCorrection",
-        "Operations": [
-          {
-            "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
-            "Name": "ZeroOffset",
-            "Argument": "x-0.4723456261253139"
-          },
-          {
-            "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
-            "Name": "Gain",
-            "Argument": "x*388.0763"
-          }
-        ]
-      },
-      "RateOfChange": {
-        "Name": "",
-        "FilterLength": 35,
-        "MaxIntervalMilliseconds": 1000.0,
-        "Resolution": 0.01
-      },
-      "Stable": 0.5,
-      "Falling": -0.5,
-      "Rising": 0.5,
-      "ZerosToAverage": 30
-    },
-    "pVM_LP": {
-      "$type": "AeonHacs.Components.AIManometer, AeonHacs.Core",
-      "Name": "pVM_LP",
+      "Name": "pVM_HP",
       "MaximumVoltage": 10.0,
       "AnalogInputMode": "SingleEnded",
       "MinimumVoltage": 0.0,
       "UnitSymbol": "Torr",
       "Ratiometric": false,
-      "MaxValue": 1000.0,
+      "MaxValue": 1600.0,
       "MinValue": 0.0,
       "Sensitivity": 1E-05,
       "Resolution": 0.01,
@@ -1556,31 +1460,15 @@
         "$type": "AeonHacs.ExponentialFilter, AeonHacs.Core",
         "Name": "",
         "Power": 2.0,
-        "StepChange": 0.01
+        "StepChange": 0.08
       },
       "Conversion": {
         "Name": "",
         "Operations": [
           {
-            "$type": "AeonHacs.Utilities.OperationSet, AeonHacs.Core",
-            "Name": "VoltageCorrection",
-            "Operations": [
-              {
-                "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
-                "Name": "Zero Offset",
-                "Argument": "x-0.9976"
-              },
-              {
-                "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
-                "Name": "VRef Correction",
-                "Argument": "x+0.990232613636314"
-              },
-              {
-                "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
-                "Name": "Gain",
-                "Argument": "x*1.00986372921794"
-              }
-            ]
+            "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
+            "Name": "Zero Offset",
+            "Argument": "x+0.013"
           },
           {
             "$type": "AeonHacs.Utilities.OperationSet, AeonHacs.Core",
@@ -1595,6 +1483,17 @@
                 "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
                 "Name": "SensorExponentialGain",
                 "Argument": "10^x"
+              }
+            ]
+          },
+          {
+            "$type": "AeonHacs.Utilities.OperationSet, AeonHacs.Core",
+            "Name": "UnitConversion",
+            "Operations": [
+              {
+                "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
+                "Name": "AtmAdjustment",
+                "Argument": "x*1.152"
               }
             ]
           }
@@ -1625,7 +1524,7 @@
         "$type": "AeonHacs.ExponentialFilter, AeonHacs.Core",
         "Name": "",
         "Power": 2.5,
-        "StepChange": 0.2
+        "StepChange": 0.3
       },
       "Conversion": {
         "Name": "",
@@ -1638,7 +1537,7 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "VoltageCorrection",
-            "Argument": "x*1.2252"
+            "Argument": "x*1"
           },
           {
             "$type": "AeonHacs.Utilities.OperationSet, AeonHacs.Core",
@@ -1699,12 +1598,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x-0.4699343211544143"
+            "Argument": "x-1.0756905495383142"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x*388.42186422260386"
+            "Argument": "x*452.3802126860984"
           }
         ]
       },
@@ -1739,12 +1638,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x-0.42390617194380686"
+            "Argument": "x-0.4804326495981073"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x*389.15602874234474"
+            "Argument": "x*394.08354349204313"
           }
         ]
       },
@@ -1779,12 +1678,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x-0.49088340743457254"
+            "Argument": "x-0.46039999894822814"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x*387.89363416250285"
+            "Argument": "x*393.96122900313316"
           }
         ]
       },
@@ -1819,12 +1718,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x-0.4904013785662807"
+            "Argument": "x-0.4772540365507448"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x*385.8754542127598"
+            "Argument": "x*394.15312735085735"
           }
         ]
       },
@@ -1859,12 +1758,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x-0.47279723805553386"
+            "Argument": "x-0.4842343593744476"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x*387.1582230344077"
+            "Argument": "x*395.2658015084647"
           }
         ]
       },
@@ -1899,12 +1798,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x-0.5142100463786772"
+            "Argument": "x-0.603894864001316"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x*389.25149720423417"
+            "Argument": "x*404.47947310743297"
           }
         ]
       },
@@ -1939,12 +1838,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x-0.47514792843723114"
+            "Argument": "x-0.4784008492678374"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x*388.3287206505815"
+            "Argument": "x*393.85798865267003"
           }
         ]
       },
@@ -1971,7 +1870,7 @@
         "$type": "AeonHacs.ExponentialFilter, AeonHacs.Core",
         "Name": "",
         "Power": 2.0,
-        "StepChange": 0.02
+        "StepChange": 0.12
       },
       "Conversion": {
         "Name": "VoltageConversion",
@@ -1979,12 +1878,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x-0.476643807762014"
+            "Argument": "x-0.4565482930090073"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x*388.86318969127615"
+            "Argument": "x*395.45834285931323"
           }
         ]
       },
@@ -2011,7 +1910,7 @@
         "$type": "AeonHacs.ExponentialFilter, AeonHacs.Core",
         "Name": "",
         "Power": 2.0,
-        "StepChange": 0.02
+        "StepChange": 0.12
       },
       "Conversion": {
         "Name": "VoltageConversion",
@@ -2019,12 +1918,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x-0.4699162481377554"
+            "Argument": "x-0.49981264693160854"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x*388.14706734308714"
+            "Argument": "x*398.7860795951236"
           }
         ]
       },
@@ -2059,12 +1958,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x-0.46817707245199097"
+            "Argument": "x-0.4625798608981541"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x*389.17204737718174"
+            "Argument": "x*393.9363318917708"
           }
         ]
       },
@@ -2099,12 +1998,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x-0.4825516039873899"
+            "Argument": "x-0.4445109689598945"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x*388.7362920757105"
+            "Argument": "x*392.59797338170034"
           }
         ]
       },
@@ -2131,7 +2030,7 @@
         "$type": "AeonHacs.ExponentialFilter, AeonHacs.Core",
         "Name": "",
         "Power": 2.0,
-        "StepChange": 0.02
+        "StepChange": 0.03
       },
       "Conversion": {
         "Name": "VoltageConversion",
@@ -2139,12 +2038,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x-2.1588333085256552"
+            "Argument": "x-0.48552167495313414"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x*388.4564777401286"
+            "Argument": "x*395.1266903470059"
           }
         ]
       },
@@ -2179,12 +2078,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x-0.492"
+            "Argument": "x-0.48"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x*382.772"
+            "Argument": "x*382.4291"
           }
         ]
       },
@@ -2219,12 +2118,12 @@
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x-0.4"
+            "Argument": "x-0.425"
           },
           {
             "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
             "Name": "",
-            "Argument": "x*48.3363"
+            "Argument": "x*51.5163"
           }
         ]
       },
@@ -2257,26 +2156,14 @@
         "Name": "ValueConversion",
         "Operations": [
           {
-            "$type": "AeonHacs.PchipInterpolator, AeonHacs.Core",
-            "Name": "Interpolate",
-            "CalibrationData": [
-              {
-                "Item1": 0.737,
-                "Item2": 15.0
-              },
-              {
-                "Item1": 0.83,
-                "Item2": 20.0
-              },
-              {
-                "Item1": 0.941,
-                "Item2": 27.0
-              },
-              {
-                "Item1": 1.074,
-                "Item2": 35.0
-              }
-            ]
+            "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
+            "Name": "",
+            "Argument": "x-0.367"
+          },
+          {
+            "$type": "AeonHacs.Utilities.Arithmetic, AeonHacs.Core",
+            "Name": "",
+            "Argument": "x*49.0995"
           }
         ]
       },
@@ -3535,13 +3422,13 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1775,
           "Incremental": false,
-          "Configuration": "t1.0"
+          "Configuration": "t0.8"
         },
         {
           "Name": "Open",
-          "Value": 700,
+          "Value": 750,
           "Incremental": false,
           "Configuration": "t1.0"
         }
@@ -3556,15 +3443,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1800,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1225,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3577,15 +3464,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1840,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1265,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3598,15 +3485,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1690,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1235,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3619,15 +3506,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1550,
+          "Value": 1930,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1050,
+          "Value": 1360,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3640,15 +3527,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1660,
+          "Value": 1830,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1160,
+          "Value": 1220,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3661,15 +3548,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1755,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1180,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3682,15 +3569,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1550,
+          "Value": 1780,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1150,
+          "Value": 1200,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3703,15 +3590,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1560,
+          "Value": 1700,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1060,
+          "Value": 1160,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3724,15 +3611,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1800,
+          "Value": 1730,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1300,
+          "Value": 1190,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3745,15 +3632,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1730,
+          "Value": 1790,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1230,
+          "Value": 1220,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3766,15 +3653,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1560,
+          "Value": 1675,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1060,
+          "Value": 1150,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3787,15 +3674,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1640,
+          "Value": 1785,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1140,
+          "Value": 1230,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3808,15 +3695,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1750,
+          "Value": 1810,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1250,
+          "Value": 1260,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3829,15 +3716,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1640,
+          "Value": 1785,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1140,
+          "Value": 1240,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3850,15 +3737,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1500,
+          "Value": 1785,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1000,
+          "Value": 1260,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3871,15 +3758,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1710,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1180,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3892,15 +3779,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1470,
+          "Value": 1750,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 970,
+          "Value": 1180,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3913,15 +3800,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1825,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1290,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3934,15 +3821,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1630,
+          "Value": 1765,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1130,
+          "Value": 1270,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3955,15 +3842,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1750,
+          "Value": 1850,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1250,
+          "Value": 1315,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3976,15 +3863,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1580,
+          "Value": 1815,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1080,
+          "Value": 1330,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -3997,15 +3884,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1800,
+          "Value": 1885,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1300,
+          "Value": 1370,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4018,15 +3905,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1710,
+          "Value": 1765,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1210,
+          "Value": 1220,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4039,15 +3926,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1540,
+          "Value": 1725,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1040,
+          "Value": 1160,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4060,15 +3947,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1695,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1185,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4081,15 +3968,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1760,
+          "Value": 1745,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1260,
+          "Value": 1245,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4102,15 +3989,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1490,
+          "Value": 1740,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 990,
+          "Value": 1150,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4125,13 +4012,13 @@
           "Name": "Close",
           "Value": 1650,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1150,
+          "Value": 1130,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4144,15 +4031,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1880,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1300,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4165,15 +4052,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1860,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1300,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4186,15 +4073,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1800,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1190,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4207,15 +4094,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1850,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1320,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4228,15 +4115,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1835,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1260,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4249,15 +4136,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1500,
+          "Value": 1810,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 980,
+          "Value": 1200,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4270,15 +4157,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1730,
+          "Value": 1675,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1230,
+          "Value": 1110,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4291,15 +4178,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1650,
+          "Value": 1825,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1150,
+          "Value": 1250,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4312,15 +4199,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1500,
+          "Value": 1795,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1000,
+          "Value": 1250,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4333,15 +4220,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1790,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1220,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4354,15 +4241,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1765,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
           "Value": 1200,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4375,15 +4262,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1750,
+          "Value": 1855,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1250,
+          "Value": 1320,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4396,15 +4283,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1600,
+          "Value": 1815,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1100,
+          "Value": 1260,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4417,15 +4304,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1815,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1290,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4438,15 +4325,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1650,
+          "Value": 1835,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1150,
+          "Value": 1290,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4459,15 +4346,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1850,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1325,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4480,15 +4367,15 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1700,
+          "Value": 1835,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1330,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4503,19 +4390,19 @@
           "Name": "Close",
           "Value": 2000,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1100,
+          "Value": 1000,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
           "Value": 1000,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4528,33 +4415,33 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 2000,
+          "Value": 1950,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "ColdTrickle",
           "Value": 1375,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "WarmTrickle",
-          "Value": 1350,
+          "Value": 1365,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1000,
+          "Value": 1100,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1000,
+          "Value": 950,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4567,21 +4454,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 2025,
+          "Value": 2000,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1000,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1025,
+          "Value": 1000,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4594,21 +4481,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 2050,
+          "Value": 1940,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1240,
+          "Value": 1200,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1000,
+          "Value": 940,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4621,21 +4508,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 2000,
+          "Value": 1900,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1300,
+          "Value": 1200,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1000,
+          "Value": 900,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4648,21 +4535,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1990,
+          "Value": 1930,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1270,
+          "Value": 1250,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1000,
+          "Value": 930,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4675,21 +4562,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1940,
+          "Value": 1870,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1115,
+          "Value": 1300,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 950,
+          "Value": 870,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4702,21 +4589,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1950,
+          "Value": 1995,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1150,
+          "Value": 1300,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 950,
+          "Value": 995,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4729,21 +4616,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 2050,
+          "Value": 1995,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1270,
+          "Value": 1350,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1050,
+          "Value": 995,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4756,21 +4643,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 2000,
+          "Value": 1900,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1350,
+          "Value": 1300,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1000,
+          "Value": 900,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4783,21 +4670,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 2050,
+          "Value": 1875,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1300,
+          "Value": 1200,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1050,
+          "Value": 875,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4810,21 +4697,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 2000,
+          "Value": 1970,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1200,
+          "Value": 1270,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1000,
+          "Value": 970,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4837,21 +4724,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 2025,
+          "Value": 1950,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1275,
+          "Value": 1250,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1025,
+          "Value": 950,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4866,19 +4753,19 @@
           "Name": "Close",
           "Value": 1950,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1225,
+          "Value": 1250,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1050,
+          "Value": 950,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4891,21 +4778,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 2000,
+          "Value": 1950,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1250,
+          "Value": 1325,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1000,
+          "Value": 950,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4918,21 +4805,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 2050,
+          "Value": 1980,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1400,
+          "Value": 980,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1050,
+          "Value": 980,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4945,21 +4832,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 2000,
+          "Value": 1950,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1400,
+          "Value": 950,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1000,
+          "Value": 950,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -4972,21 +4859,21 @@
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 2000,
+          "Value": 1975,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open",
-          "Value": 1400,
+          "Value": 975,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         },
         {
           "Name": "Open fully",
-          "Value": 1000,
+          "Value": 975,
           "Incremental": false,
-          "Configuration": "t0.8"
+          "Configuration": "t1.0"
         }
       ]
     },
@@ -5937,7 +5824,7 @@
       "Rising": 0.0,
       "ZerosToAverage": 30,
       "ManualMode": true,
-      "PowerLevel": 11.25,
+      "PowerLevel": 11.6,
       "MaximumPowerLevel": 12.0
     },
     "hIP3CCQ": {
@@ -5965,7 +5852,7 @@
       "Rising": 0.0,
       "ZerosToAverage": 30,
       "ManualMode": true,
-      "PowerLevel": 11.35,
+      "PowerLevel": 11.9,
       "MaximumPowerLevel": 12.0
     },
     "hIP4CCQ": {
@@ -5993,7 +5880,7 @@
       "Rising": 0.0,
       "ZerosToAverage": 30,
       "ManualMode": true,
-      "PowerLevel": 11.35,
+      "PowerLevel": 11.25,
       "MaximumPowerLevel": 12.0
     },
     "hIP5CCQ": {
@@ -6021,7 +5908,7 @@
       "Rising": 0.0,
       "ZerosToAverage": 30,
       "ManualMode": true,
-      "PowerLevel": 11.25,
+      "PowerLevel": 11.4,
       "MaximumPowerLevel": 12.0
     },
     "hIP6CCQ": {
@@ -6049,7 +5936,7 @@
       "Rising": 0.0,
       "ZerosToAverage": 30,
       "ManualMode": true,
-      "PowerLevel": 11.3,
+      "PowerLevel": 11.4,
       "MaximumPowerLevel": 12.0
     },
     "hIP7CCQ": {
@@ -6105,7 +5992,7 @@
       "Rising": 0.0,
       "ZerosToAverage": 30,
       "ManualMode": true,
-      "PowerLevel": 11.2,
+      "PowerLevel": 11.4,
       "MaximumPowerLevel": 12.0
     },
     "hIP9CCQ": {
@@ -6133,7 +6020,7 @@
       "Rising": 0.0,
       "ZerosToAverage": 30,
       "ManualMode": true,
-      "PowerLevel": 11.1,
+      "PowerLevel": 12.0,
       "MaximumPowerLevel": 12.0
     },
     "hIP10CCQ": {
@@ -6161,7 +6048,7 @@
       "Rising": 0.0,
       "ZerosToAverage": 30,
       "ManualMode": true,
-      "PowerLevel": 11.28,
+      "PowerLevel": 11.25,
       "MaximumPowerLevel": 12.0
     },
     "hIP11CCQ": {
@@ -6217,7 +6104,7 @@
       "Rising": 0.0,
       "ZerosToAverage": 30,
       "ManualMode": true,
-      "PowerLevel": 11.3,
+      "PowerLevel": 11.4,
       "MaximumPowerLevel": 12.0
     },
     "hGR1": {
@@ -6481,7 +6368,7 @@
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
-      "OnOffState": "On",
+      "OnOffState": "Off",
       "UnitSymbol": "°C",
       "Ratiometric": false,
       "MaxValue": 0.0,
@@ -6509,7 +6396,7 @@
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 600.0,
       "StopAction": "None",
-      "OnOffState": "On",
+      "OnOffState": "Off",
       "UnitSymbol": "°C",
       "Ratiometric": false,
       "MaxValue": 0.0,
@@ -6589,194 +6476,194 @@
     "PID_IP1": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_IP1",
-      "Gain": 13.88,
-      "Integral": 0.00676,
-      "Derivative": 172.4,
-      "Preset": 0.985
+      "Gain": 13.17,
+      "Integral": 0.00516,
+      "Derivative": 200.0,
+      "Preset": 0.904
     },
     "PID_IP2": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_IP2",
-      "Gain": 14.8,
-      "Integral": 0.00718,
-      "Derivative": 156.3,
-      "Preset": 0.924
+      "Gain": 17.16,
+      "Integral": 0.00265,
+      "Derivative": 187.5,
+      "Preset": 0.802
     },
     "PID_IP3": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_IP3",
-      "Gain": 12.43,
-      "Integral": 0.00825,
-      "Derivative": 137.6,
-      "Preset": 0.795
+      "Gain": 11.65,
+      "Integral": 0.00211,
+      "Derivative": 192.3,
+      "Preset": 0.815
     },
     "PID_IP4": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_IP4",
-      "Gain": 13.81,
-      "Integral": 0.00721,
-      "Derivative": 151.5,
-      "Preset": 1.017
+      "Gain": 18.4,
+      "Integral": 0.00577,
+      "Derivative": 187.5,
+      "Preset": 0.955
     },
     "PID_IP5": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_IP5",
-      "Gain": 13.54,
-      "Integral": 0.00659,
-      "Derivative": 166.7,
-      "Preset": 1.06
+      "Gain": 14.73,
+      "Integral": 0.00653,
+      "Derivative": 168.5,
+      "Preset": 0.796
     },
     "PID_IP6": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_IP6",
-      "Gain": 11.92,
-      "Integral": 0.00813,
-      "Derivative": 127.1,
-      "Preset": 0.836
+      "Gain": 14.07,
+      "Integral": 0.0057,
+      "Derivative": 220.6,
+      "Preset": 0.956
     },
     "PID_IP7": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_IP7",
       "Gain": 15.4,
-      "Integral": 0.00593,
+      "Integral": 0.00408,
       "Derivative": 202.7,
-      "Preset": 1.052
+      "Preset": 0.985
     },
     "PID_IP8": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_IP8",
-      "Gain": 13.87,
-      "Integral": 0.00665,
-      "Derivative": 176.5,
-      "Preset": 0.983
+      "Gain": 13.51,
+      "Integral": 0.00291,
+      "Derivative": 192.3,
+      "Preset": 0.837
     },
     "PID_IP9": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_IP9",
-      "Gain": 20.37,
-      "Integral": 0.00988,
-      "Derivative": 85.2,
-      "Preset": 0.646
+      "Gain": 12.7,
+      "Integral": 0.0033,
+      "Derivative": 161.3,
+      "Preset": 0.811
     },
     "PID_IP10": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_IP10",
-      "Gain": 13.04,
-      "Integral": 0.00732,
-      "Derivative": 157.9,
-      "Preset": 0.996
+      "Gain": 11.03,
+      "Integral": 0.00694,
+      "Derivative": 148.5,
+      "Preset": 0.716
     },
     "PID_IP11": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_IP11",
-      "Gain": 13.93,
-      "Integral": 0.00732,
-      "Derivative": 154.6,
-      "Preset": 0.984
+      "Gain": 14.55,
+      "Integral": 0.00651,
+      "Derivative": 172.4,
+      "Preset": 0.948
     },
     "PID_IP12": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_IP12",
-      "Gain": 16.41,
-      "Integral": 0.00631,
-      "Derivative": 185.2,
-      "Preset": 1.031
+      "Gain": 19.86,
+      "Integral": 0.00545,
+      "Derivative": 214.3,
+      "Preset": 1.0
     },
     "PID_GR1": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_GR1",
-      "Gain": 59.47,
-      "Integral": 0.01024,
-      "Derivative": 87.7,
+      "Gain": 20.23,
+      "Integral": 0.00842,
+      "Derivative": 114.5,
       "Preset": 0.612
     },
     "PID_GR2": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_GR2",
-      "Gain": 24.39,
-      "Integral": 0.01048,
-      "Derivative": 93.2,
-      "Preset": 0.669
+      "Gain": 22.06,
+      "Integral": 0.00686,
+      "Derivative": 124.0,
+      "Preset": 0.6
     },
     "PID_GR3": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_GR3",
-      "Gain": 21.63,
-      "Integral": 0.01057,
-      "Derivative": 97.4,
-      "Preset": 0.629
+      "Gain": 20.27,
+      "Integral": 0.00813,
+      "Derivative": 119.0,
+      "Preset": 0.598
     },
     "PID_GR4": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_GR4",
-      "Gain": 37.57,
-      "Integral": 0.0122,
-      "Derivative": 84.3,
-      "Preset": 0.659
+      "Gain": 25.45,
+      "Integral": 0.00747,
+      "Derivative": 130.4,
+      "Preset": 0.602
     },
     "PID_GR5": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_GR5",
-      "Gain": 26.12,
-      "Integral": 0.01049,
-      "Derivative": 98.0,
-      "Preset": 0.656
+      "Gain": 12.0,
+      "Integral": 0.00829,
+      "Derivative": 129.3,
+      "Preset": 0.561
     },
     "PID_GR6": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_GR6",
-      "Gain": 44.71,
-      "Integral": 0.01031,
-      "Derivative": 99.3,
-      "Preset": 0.684
+      "Gain": 19.44,
+      "Integral": 0.00759,
+      "Derivative": 111.1,
+      "Preset": 0.61
     },
     "PID_GR7": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_GR7",
-      "Gain": 35.76,
-      "Integral": 0.00898,
-      "Derivative": 102.0,
-      "Preset": 0.683
+      "Gain": 13.25,
+      "Integral": 0.0073,
+      "Derivative": 142.9,
+      "Preset": 0.679
     },
     "PID_GR8": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_GR8",
-      "Gain": 36.59,
-      "Integral": 0.00896,
-      "Derivative": 95.5,
-      "Preset": 0.678
+      "Gain": 17.76,
+      "Integral": 0.00769,
+      "Derivative": 120.0,
+      "Preset": 0.617
     },
     "PID_GR9": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_GR9",
-      "Gain": 33.42,
-      "Integral": 0.01037,
-      "Derivative": 89.3,
-      "Preset": 0.632
+      "Gain": 16.91,
+      "Integral": 0.00835,
+      "Derivative": 103.4,
+      "Preset": 0.613
     },
     "PID_GR10": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_GR10",
-      "Gain": 22.62,
-      "Integral": 0.00912,
-      "Derivative": 103.4,
-      "Preset": 0.697
+      "Gain": 13.08,
+      "Integral": 0.0093,
+      "Derivative": 96.8,
+      "Preset": 0.542
     },
     "PID_GR11": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_GR11",
-      "Gain": 32.24,
-      "Integral": 0.00903,
-      "Derivative": 110.3,
-      "Preset": 0.71
+      "Gain": 13.9,
+      "Integral": 0.00647,
+      "Derivative": 205.5,
+      "Preset": 0.784
     },
     "PID_GR12": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "PID_GR12",
-      "Gain": 33.44,
-      "Integral": 0.01036,
-      "Derivative": 90.4,
-      "Preset": 0.669
+      "Gain": 18.98,
+      "Integral": 0.00756,
+      "Derivative": 123.0,
+      "Preset": 0.631
     },
     "CFF60V88W": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
@@ -6797,18 +6684,18 @@
     "VtcCold": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "VtcCold",
-      "Gain": 122.93,
-      "Integral": 0.04201,
-      "Derivative": 208.5,
-      "Preset": 5.865
+      "Gain": 46.93,
+      "Integral": 0.03687,
+      "Derivative": 264.7,
+      "Preset": 6.323
     },
     "VtcWarm": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
       "Name": "VtcWarm",
-      "Gain": 25.42,
-      "Integral": 0.00245,
-      "Derivative": 373.2,
-      "Preset": 0.782
+      "Gain": 152.04,
+      "Integral": 0.00253,
+      "Derivative": 421.6,
+      "Preset": 0.576
     },
     "HeatTape120V470W": {
       "$type": "AeonHacs.Components.PidSetup, AeonHacs.Core",
@@ -7226,7 +7113,7 @@
       "LowVacuumRequiredPressure": 8.0,
       "StateStopwatch": {
         "IsRunning": true,
-        "Accumulated": 2288
+        "Accumulated": 19786168
       },
       "IdleTimeout": 50
     }
@@ -7255,7 +7142,7 @@
     "VM": {
       "$type": "AeonHacs.Components.Chamber, AeonHacs.Core",
       "Name": "VM",
-      "MilliLiters": 141.5843129690239,
+      "MilliLiters": 142.36809736362602,
       "Manometer": "pVM",
       "Thermometer": null,
       "Heater": null,
@@ -7275,7 +7162,7 @@
     "IMC": {
       "$type": "AeonHacs.Components.Chamber, AeonHacs.Core",
       "Name": "IMC",
-      "MilliLiters": 4.8496248621383735,
+      "MilliLiters": 4.571143017910943,
       "Manometer": "pIM",
       "Thermometer": null,
       "Heater": null,
@@ -7285,7 +7172,7 @@
     "IML": {
       "$type": "AeonHacs.Components.Chamber, AeonHacs.Core",
       "Name": "IML",
-      "MilliLiters": 9.800685212240877,
+      "MilliLiters": 9.595978063284095,
       "Manometer": null,
       "Thermometer": null,
       "Heater": null,
@@ -7295,7 +7182,7 @@
     "IMR": {
       "$type": "AeonHacs.Components.Chamber, AeonHacs.Core",
       "Name": "IMR",
-      "MilliLiters": 9.778996636151913,
+      "MilliLiters": 9.543402412962196,
       "Manometer": null,
       "Thermometer": null,
       "Heater": null,
@@ -7305,7 +7192,7 @@
     "CT": {
       "$type": "AeonHacs.Components.Chamber, AeonHacs.Core",
       "Name": "CT",
-      "MilliLiters": 16.525577419654695,
+      "MilliLiters": 23.049100116795852,
       "Manometer": "pCT",
       "Thermometer": "tLN_CT",
       "Heater": null,
@@ -7315,7 +7202,7 @@
     "VTT": {
       "$type": "AeonHacs.Components.Chamber, AeonHacs.Core",
       "Name": "VTT",
-      "MilliLiters": 9.58754616497479,
+      "MilliLiters": 9.607472052976135,
       "Manometer": null,
       "Thermometer": "tVTC",
       "Heater": "hVTC",
@@ -7325,7 +7212,7 @@
     "MC": {
       "$type": "AeonHacs.Components.Chamber, AeonHacs.Core",
       "Name": "MC",
-      "MilliLiters": 14.699439287561598,
+      "MilliLiters": 15.213056275611924,
       "Manometer": "pMC",
       "Thermometer": "tMC",
       "Heater": null,
@@ -7335,7 +7222,7 @@
     "Split": {
       "$type": "AeonHacs.Components.Chamber, AeonHacs.Core",
       "Name": "Split",
-      "MilliLiters": 2.0813527304603823,
+      "MilliLiters": 2.1280058536354702,
       "Manometer": null,
       "Thermometer": null,
       "Heater": null,
@@ -7345,7 +7232,7 @@
     "GMC": {
       "$type": "AeonHacs.Components.Chamber, AeonHacs.Core",
       "Name": "GMC",
-      "MilliLiters": 4.815024628420251,
+      "MilliLiters": 4.413527527464061,
       "Manometer": "pGM",
       "Thermometer": null,
       "Heater": null,
@@ -7355,7 +7242,7 @@
     "GML": {
       "$type": "AeonHacs.Components.Chamber, AeonHacs.Core",
       "Name": "GML",
-      "MilliLiters": 11.276081192878976,
+      "MilliLiters": 10.303414344817021,
       "Manometer": null,
       "Thermometer": "tGML",
       "Heater": null,
@@ -7365,7 +7252,7 @@
     "GMR": {
       "$type": "AeonHacs.Components.Chamber, AeonHacs.Core",
       "Name": "GMR",
-      "MilliLiters": 11.178894904288196,
+      "MilliLiters": 10.557723755727277,
       "Manometer": null,
       "Thermometer": "tGMR",
       "Heater": null,
@@ -7376,7 +7263,7 @@
       "$type": "AeonHacs.Components.Port, AeonHacs.Core",
       "Name": "MCP1",
       "Valve": "vMC_MCP1",
-      "MilliLiters": 15.259684549262541,
+      "MilliLiters": 14.794044460174886,
       "Manometer": null,
       "Thermometer": null,
       "Heater": null,
@@ -7387,7 +7274,7 @@
       "$type": "AeonHacs.Components.Port, AeonHacs.Core",
       "Name": "MCP2",
       "Valve": "vMC_MCP2",
-      "MilliLiters": 14.853782106956135,
+      "MilliLiters": 14.860349462135744,
       "Manometer": null,
       "Thermometer": null,
       "Heater": null,
@@ -7707,7 +7594,7 @@
     "GR1": {
       "$type": "AeonHacs.Components.GraphiteReactor, AeonHacs.Core",
       "Name": "GR1",
-      "State": "WaitService",
+      "State": "Prepared",
       "Size": "Standard",
       "Sample": null,
       "Aliquot": 0,
@@ -7739,7 +7626,7 @@
     "GR2": {
       "$type": "AeonHacs.Components.GraphiteReactor, AeonHacs.Core",
       "Name": "GR2",
-      "State": "WaitService",
+      "State": "Prepared",
       "Size": "Standard",
       "Sample": null,
       "Aliquot": 0,
@@ -7771,7 +7658,7 @@
     "GR3": {
       "$type": "AeonHacs.Components.GraphiteReactor, AeonHacs.Core",
       "Name": "GR3",
-      "State": "WaitService",
+      "State": "Prepared",
       "Size": "Standard",
       "Sample": null,
       "Aliquot": 0,
@@ -7803,7 +7690,7 @@
     "GR4": {
       "$type": "AeonHacs.Components.GraphiteReactor, AeonHacs.Core",
       "Name": "GR4",
-      "State": "WaitService",
+      "State": "Prepared",
       "Size": "Standard",
       "Sample": null,
       "Aliquot": 0,
@@ -7835,7 +7722,7 @@
     "GR5": {
       "$type": "AeonHacs.Components.GraphiteReactor, AeonHacs.Core",
       "Name": "GR5",
-      "State": "WaitService",
+      "State": "Prepared",
       "Size": "Standard",
       "Sample": null,
       "Aliquot": 0,
@@ -7867,7 +7754,7 @@
     "GR6": {
       "$type": "AeonHacs.Components.GraphiteReactor, AeonHacs.Core",
       "Name": "GR6",
-      "State": "WaitService",
+      "State": "Prepared",
       "Size": "Standard",
       "Sample": null,
       "Aliquot": 0,
@@ -7931,7 +7818,7 @@
     "GR8": {
       "$type": "AeonHacs.Components.GraphiteReactor, AeonHacs.Core",
       "Name": "GR8",
-      "State": "WaitService",
+      "State": "Prepared",
       "Size": "Standard",
       "Sample": null,
       "Aliquot": 0,
@@ -7963,7 +7850,7 @@
     "GR9": {
       "$type": "AeonHacs.Components.GraphiteReactor, AeonHacs.Core",
       "Name": "GR9",
-      "State": "WaitService",
+      "State": "Prepared",
       "Size": "Standard",
       "Sample": null,
       "Aliquot": 0,
@@ -7995,7 +7882,7 @@
     "GR10": {
       "$type": "AeonHacs.Components.GraphiteReactor, AeonHacs.Core",
       "Name": "GR10",
-      "State": "WaitService",
+      "State": "Prepared",
       "Size": "Standard",
       "Sample": null,
       "Aliquot": 0,
@@ -8027,7 +7914,7 @@
     "GR11": {
       "$type": "AeonHacs.Components.GraphiteReactor, AeonHacs.Core",
       "Name": "GR11",
-      "State": "WaitService",
+      "State": "Prepared",
       "Size": "Standard",
       "Sample": null,
       "Aliquot": 1,
@@ -8059,7 +7946,7 @@
     "GR12": {
       "$type": "AeonHacs.Components.GraphiteReactor, AeonHacs.Core",
       "Name": "GR12",
-      "State": "WaitService",
+      "State": "Prepared",
       "Size": "Standard",
       "Sample": null,
       "Aliquot": 0,
@@ -9972,18 +9859,6 @@
           "Resolution": -1.0,
           "Format": "0.00e0",
           "Path": null
-        },
-        {
-          "Name": "pVM_LP",
-          "Resolution": -1.0,
-          "Format": "0.00e0",
-          "Path": null
-        },
-        {
-          "Name": "pVM_GP",
-          "Resolution": -1.0,
-          "Format": "0.00e0",
-          "Path": null
         }
       ],
       "ChangeTimeoutMilliseconds": 30000,
@@ -10340,6 +10215,90 @@
       "TimeStampFormat": "MM/dd/yyyy HH:mm:ss.fff\t",
       "ArchiveDaily": true
     },
+    "GRSampleTemperatureLog": {
+      "$type": "AeonHacs.Components.DataLog, AeonHacs.Core",
+      "Name": "GRSampleTemperatureLog",
+      "InsertLatestSkippedEntry": false,
+      "Columns": [
+        {
+          "Name": "GR1.SampleTemperature",
+          "Resolution": 1.0,
+          "Format": "0.0",
+          "Path": null
+        },
+        {
+          "Name": "GR2.SampleTemperature",
+          "Resolution": 1.0,
+          "Format": "0.0",
+          "Path": null
+        },
+        {
+          "Name": "GR3.SampleTemperature",
+          "Resolution": 1.0,
+          "Format": "0.0",
+          "Path": null
+        },
+        {
+          "Name": "GR4.SampleTemperature",
+          "Resolution": 1.0,
+          "Format": "0.0",
+          "Path": null
+        },
+        {
+          "Name": "GR5.SampleTemperature",
+          "Resolution": 1.0,
+          "Format": "0.0",
+          "Path": null
+        },
+        {
+          "Name": "GR6.SampleTemperature",
+          "Resolution": 1.0,
+          "Format": "0.0",
+          "Path": null
+        },
+        {
+          "Name": "GR7.SampleTemperature",
+          "Resolution": 1.0,
+          "Format": "0.0",
+          "Path": null
+        },
+        {
+          "Name": "GR8.SampleTemperature",
+          "Resolution": 1.0,
+          "Format": "0.0",
+          "Path": null
+        },
+        {
+          "Name": "GR9.SampleTemperature",
+          "Resolution": 1.0,
+          "Format": "0.0",
+          "Path": null
+        },
+        {
+          "Name": "GR10.SampleTemperature",
+          "Resolution": 1.0,
+          "Format": "0.0",
+          "Path": null
+        },
+        {
+          "Name": "GR11.SampleTemperature",
+          "Resolution": 1.0,
+          "Format": "0.0",
+          "Path": null
+        },
+        {
+          "Name": "GR12.SampleTemperature",
+          "Resolution": 1.0,
+          "Format": "0.0",
+          "Path": null
+        }
+      ],
+      "ChangeTimeoutMilliseconds": 30000,
+      "OnlyLogWhenChanged": false,
+      "FileName": "GR Sample Temperature data.txt",
+      "TimeStampFormat": "MM/dd/yyyy HH:mm:ss.fff\t",
+      "ArchiveDaily": true
+    },
     "GRColdfingerLog": {
       "$type": "AeonHacs.Components.DataLog, AeonHacs.Core",
       "Name": "GRColdfingerLog",
@@ -10593,10 +10552,10 @@
     "EnableWatchdogs": true,
     "EnableAutozero": true,
     "PriorGR": "GR12",
-    "NextGraphiteNumber": 1,
+    "NextGraphiteNumber": 34,
     "DefaultMassUnits": "mg",
     "Take13CDefault": false,
-    "SampleCounter": 1,
+    "SampleCounter": 164,
     "MaximumAliquotsPerSample": 3,
     "EnableSmallReactors": false,
     "UpdateIntervalMilliseconds": 50,
@@ -10887,5 +10846,5 @@
   "MC_Split": "MC_Split",
   "SampleMeter": "ugCinMC",
   "IpOvenRamper": null,
-  "InletPort": "IP1"
+  "InletPort": "IP6"
 }
