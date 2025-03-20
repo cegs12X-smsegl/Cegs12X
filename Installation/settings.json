@@ -3734,6 +3734,12 @@
           "Configuration": "t1.0"
         },
         {
+          "Name": "Open 45",
+          "Value": 1260,
+          "Incremental": false,
+          "Configuration": "t1.0"
+        },
+        {
           "Name": "Open",
           "Value": 750,
           "Incremental": false,
