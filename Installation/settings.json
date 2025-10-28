@@ -7879,7 +7879,7 @@
       "$type": "AeonHacs.Components.Chamber, AeonHacs.Core",
       "Name": "CalibratedKnownVolume",
       "Description": "Known volume used for calibrating chambers",
-      "MilliLiters": 23.773,
+      "MilliLiters": 30.694,
       "Manometer": null,
       "Thermometer": null,
       "Heater": null,
@@ -9910,11 +9910,11 @@
       "SourceValve": "vH2_VM",
       "FlowValve": "vH2Flow",
       "Meter": "pGM",
-      "SecondsSettlingTime": 2.0,
+      "SecondsSettlingTime": 3.0,
       "FlowManager": "H2.GMFlowManager",
       "Destination": "GM",
       "Path": "VM",
-      "PurgePressure": 5.0,
+      "PurgePressure": 14.0,
       "SecondsToPurge": 20,
       "SecondsToPressurize": 180
     },
@@ -9960,7 +9960,7 @@
       "FlowManager": "He.GMFlowManager",
       "Destination": "GM",
       "Path": "VM",
-      "PurgePressure": 5.0,
+      "PurgePressure": 10.0,
       "SecondsToPurge": 20,
       "SecondsToPressurize": 180
     },
@@ -10006,7 +10006,7 @@
       "FlowManager": "He.IMFlowManager",
       "Destination": "IM",
       "Path": "VM",
-      "PurgePressure": 5.0,
+      "PurgePressure": 10.0,
       "SecondsToPurge": 20,
       "SecondsToPressurize": 20
     },
@@ -10052,7 +10052,7 @@
       "FlowManager": "He.MCFlowManager",
       "Destination": "MC",
       "Path": "VM_Split",
-      "PurgePressure": 5.0,
+      "PurgePressure": 10.0,
       "SecondsToPurge": 20,
       "SecondsToPressurize": 180
     },
@@ -10068,7 +10068,7 @@
       "FlowManager": "He.MCFlowManager",
       "Destination": "MCA",
       "Path": "VM_Split",
-      "PurgePressure": 5.0,
+      "PurgePressure": 10.0,
       "SecondsToPurge": 20,
       "SecondsToPressurize": 180
     },
@@ -10084,7 +10084,7 @@
       "FlowManager": "He.MCFlowManager",
       "Destination": "MCA_GMC",
       "Path": "VM",
-      "PurgePressure": 5.0,
+      "PurgePressure": 10.0,
       "SecondsToPurge": 20,
       "SecondsToPressurize": 180
     },
@@ -10100,7 +10100,7 @@
       "FlowManager": "He.MCFlowManager",
       "Destination": "MC_GM",
       "Path": "VM",
-      "PurgePressure": 5.0,
+      "PurgePressure": 10.0,
       "SecondsToPurge": 20,
       "SecondsToPressurize": 180
     },
@@ -10116,7 +10116,7 @@
       "FlowManager": "He.MCFlowManager",
       "Destination": "MCA_GM",
       "Path": "VM",
-      "PurgePressure": 5.0,
+      "PurgePressure": 10.0,
       "SecondsToPurge": 20,
       "SecondsToPressurize": 180
     },
@@ -11341,10 +11341,10 @@
     "EnableWatchdogs": true,
     "EnableAutozero": true,
     "PriorGR": "GR6",
-    "NextGraphiteNumber": 34,
+    "NextGraphiteNumber": 1,
     "DefaultMassUnits": "mg",
     "Take13CDefault": false,
-    "SampleCounter": 214,
+    "SampleCounter": 1,
     "MaximumAliquotsPerSample": 3,
     "EnableSmallReactors": false,
     "UpdateIntervalMilliseconds": 50,
@@ -11492,7 +11492,7 @@
       },
       {
         "ParameterName": "IMO2Pressure",
-        "Value": 1390.0,
+        "Value": 1350.0,
         "Description": "An initial IM O2 pressure that will expand sufficient oxygen into the inlet port to fully combust a sample of maximum size. Typically, this means enough to fully oxidize about three mg C to CO2."
       },
       {
@@ -11507,7 +11507,7 @@
       },
       {
         "ParameterName": "IpMinutes",
-        "Value": 15.0,
+        "Value": 60.0,
         "Description": "Set time for the IP Timer."
       },
       {
