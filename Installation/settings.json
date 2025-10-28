@@ -7532,7 +7532,7 @@
       "ColdTemperature": -170,
       "MaximumMinutesToFreeze": 15,
       "MaximumMinutesToThaw": 20,
-      "CleanupTemperature": 50,
+      "CleanupTemperature": 15,
       "HeaterOnTrickle": "WarmTrickle",
       "HeaterOffTrickle": "ColdTrickle",
       "StopAction": "TurnOff",
@@ -9931,7 +9931,8 @@
       "Destination": "GMC_GML",
       "Path": "VM",
       "PurgePressure": 14.0,
-      "SecondsToPurge": 20
+      "SecondsToPurge": 20,
+      "SecondsToPressurize": 20
     },
     "H2.GMR": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -9946,7 +9947,8 @@
       "Destination": "GMC_GMR",
       "Path": "VM",
       "PurgePressure": 14.0,
-      "SecondsToPurge": 20
+      "SecondsToPurge": 20,
+      "SecondsToPressurize": 20
     },
     "He.GM": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -9977,7 +9979,8 @@
       "Destination": "GMC_GML",
       "Path": "VM",
       "PurgePressure": 10.0,
-      "SecondsToPurge": 20
+      "SecondsToPurge": 20,
+      "SecondsToPressurize": 20
     },
     "He.GMR": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -9992,7 +9995,8 @@
       "Destination": "GMC_GMR",
       "Path": "VM",
       "PurgePressure": 10.0,
-      "SecondsToPurge": 20
+      "SecondsToPurge": 20,
+      "SecondsToPressurize": 20
     },
     "He.IM": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10023,7 +10027,8 @@
       "Destination": "IML_IMC",
       "Path": "VM",
       "PurgePressure": 10.0,
-      "SecondsToPurge": 20
+      "SecondsToPurge": 20,
+      "SecondsToPressurize": 20
     },
     "He.IMR": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10038,7 +10043,8 @@
       "Destination": "IMR_IMC",
       "Path": "VM",
       "PurgePressure": 10.0,
-      "SecondsToPurge": 20
+      "SecondsToPurge": 20,
+      "SecondsToPressurize": 20
     },
     "He.MC": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10137,52 +10143,52 @@
       "SecondsToPressurize": 180
     },
     "O2.IM": {
-        "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
-        "Name": "O2.IM",
-        "Description": "Oxygen gas supply for Inlet manifold",
-        "GasName": "O2",
-        "SourceValve": "vO2_VM",
-        "FlowValve": null,
-        "Meter": "pIM",
-        "SecondsSettlingTime": 0.9,
-        "FlowManager": null,
-        "Destination": "IM",
-        "Path": "VM",
-        "PurgePressure": 100.0,
-        "SecondsToPurge": 1,
-        "SecondsToPressurize": 20
+      "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
+      "Name": "O2.IM",
+      "Description": "Oxygen gas supply for Inlet manifold",
+      "GasName": "O2",
+      "SourceValve": "vO2_VM",
+      "FlowValve": null,
+      "Meter": "pIM",
+      "SecondsSettlingTime": 0.9,
+      "FlowManager": null,
+      "Destination": "IM",
+      "Path": "VM",
+      "PurgePressure": 100.0,
+      "SecondsToPurge": 1,
+      "SecondsToPressurize": 20
     },
     "O2.IML": {
-        "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
-        "Name": "O2.IML",
-        "Description": "Oxygen gas supply for Inlet manifold left",
-        "GasName": "O2",
-        "SourceValve": "vO2_VM",
-        "FlowValve": null,
-        "Meter": "pIM",
-        "SecondsSettlingTime": 0.9,
-        "FlowManager": null,
-        "Destination": "IML_IMC",
-        "Path": "VM",
-        "PurgePressure": 100.0,
-        "SecondsToPurge": 1,
-        "SecondsToPressurize": 20
+      "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
+      "Name": "O2.IML",
+      "Description": "Oxygen gas supply for Inlet manifold left",
+      "GasName": "O2",
+      "SourceValve": "vO2_VM",
+      "FlowValve": null,
+      "Meter": "pIM",
+      "SecondsSettlingTime": 0.9,
+      "FlowManager": null,
+      "Destination": "IML_IMC",
+      "Path": "VM",
+      "PurgePressure": 100.0,
+      "SecondsToPurge": 1,
+      "SecondsToPressurize": 20
     },
     "O2.IMR": {
-        "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
-        "Name": "O2.IMR",
-        "Description": "Oxygen gas supply for Inlet manifold right",
-        "GasName": "O2",
-        "SourceValve": "vO2_VM",
-        "FlowValve": null,
-        "Meter": "pIM",
-        "SecondsSettlingTime": 0.9,
-        "FlowManager": null,
-        "Destination": "IMR_IMC",
-        "Path": "VM",
-        "PurgePressure": 100.0,
-        "SecondsToPurge": 1,
-        "SecondsToPressurize": 20
+      "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
+      "Name": "O2.IMR",
+      "Description": "Oxygen gas supply for Inlet manifold right",
+      "GasName": "O2",
+      "SourceValve": "vO2_VM",
+      "FlowValve": null,
+      "Meter": "pIM",
+      "SecondsSettlingTime": 0.9,
+      "FlowManager": null,
+      "Destination": "IMR_IMC",
+      "Path": "VM",
+      "PurgePressure": 100.0,
+      "SecondsToPurge": 1,
+      "SecondsToPressurize": 20
     }
   },
   "FlowManagers": {
