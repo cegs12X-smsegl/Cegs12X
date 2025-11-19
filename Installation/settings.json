@@ -82,8 +82,10 @@
           "Description": ""
         },
         {
-          "Name": "Enable sample setpoint ramping",
-          "Description": ""
+          "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
+          "Name": "EnableIpRamp",
+          "Description": "",
+          "Value": 1.0
         },
         {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
@@ -92,18 +94,10 @@
           "Value": 30.0
         },
         {
-          "Name": "Adjust sample ramp rate",
-          "Description": ""
-        },
-        {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
           "Name": "IpSetpoint",
           "Description": "",
           "Value": 110.0
-        },
-        {
-          "Name": "Adjust sample setpoint",
-          "Description": ""
         },
         {
           "Name": "Turn on sample furnace",
@@ -126,18 +120,10 @@
           "Value": 9.0
         },
         {
-          "Name": "Adjust sample ramp rate",
-          "Description": ""
-        },
-        {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
           "Name": "IpSetpoint",
           "Description": "",
           "Value": 170.0
-        },
-        {
-          "Name": "Adjust sample setpoint",
-          "Description": ""
         },
         {
           "Name": "Wait for sample to rise to setpoint",
@@ -152,10 +138,6 @@
           "Name": "IpSetpoint",
           "Description": "",
           "Value": 200.0
-        },
-        {
-          "Name": "Adjust sample setpoint",
-          "Description": ""
         },
         {
           "Name": "Wait for sample to rise to setpoint",
@@ -176,8 +158,10 @@
           "Description": ""
         },
         {
-          "Name": "Disable sample setpoint ramping",
-          "Description": ""
+          "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
+          "Name": "EnableIpRamp",
+          "Description": "",
+          "Value": 0.0
         },
         {
           "Name": "Collect, etc.",
@@ -595,8 +579,10 @@
           "Description": ""
         },
         {
-          "Name": "Enable sample setpoint ramping",
-          "Description": ""
+          "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
+          "Name": "EnableIpRamp",
+          "Description": "",
+          "Value": 1.0
         },
         {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
@@ -605,18 +591,10 @@
           "Value": 30.0
         },
         {
-          "Name": "Adjust sample ramp rate",
-          "Description": ""
-        },
-        {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
           "Name": "IpSetpoint",
           "Description": "",
           "Value": 150.0
-        },
-        {
-          "Name": "Adjust sample setpoint",
-          "Description": ""
         },
         {
           "Name": "Turn on sample furnace",
@@ -639,18 +617,10 @@
           "Value": 20.0
         },
         {
-          "Name": "Adjust sample ramp rate",
-          "Description": ""
-        },
-        {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
           "Name": "IpSetpoint",
           "Description": "",
           "Value": 625.0
-        },
-        {
-          "Name": "Adjust sample setpoint",
-          "Description": ""
         },
         {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
@@ -677,8 +647,10 @@
           "Description": ""
         },
         {
-          "Name": "Disable sample setpoint ramping",
-          "Description": ""
+          "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
+          "Name": "EnableIpRamp",
+          "Description": "",
+          "Value": 0.0
         },
         {
           "Name": "Collect, etc.",
@@ -725,8 +697,10 @@
           "Value": 1.0
         },
         {
-          "Name": "Enable sample setpoint ramping",
-          "Description": ""
+          "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
+          "Name": "EnableIpRamp",
+          "Description": "",
+          "Value": 1.0
         },
         {
           "Name": "Open and evacuate line (IM)",
@@ -754,17 +728,13 @@
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
           "Name": "IpSetpoint",
           "Description": "",
-          "Value": 380.0
+          "Value": 150.0
         },
         {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
           "Name": "IpMinutes",
           "Description": "",
           "Value": 15.0
-        },
-        {
-          "Name": "Adjust sample setpoint",
-          "Description": ""
         },
         {
           "Name": "Admit O2 into Inlet Port",
@@ -782,6 +752,45 @@
           "Name": "Wait for IP timer",
           "Description": ""
         },
+        {
+          "Name": "Discard IP gases",
+          "Description": ""
+        },
+		
+		
+        {
+          "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
+          "Name": "IpSetpoint",
+          "Description": "",
+          "Value": 380.0
+        },
+        {
+          "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
+          "Name": "IpMinutes",
+          "Description": "",
+          "Value": 15.0
+        },
+        {
+          "Name": "Admit O2 into Inlet Port",
+          "Description": ""
+        },
+        {
+          "Name": "Turn on sample furnace",
+          "Description": ""
+        },
+        {
+          "Name": "Wait for sample to rise to setpoint",
+          "Description": ""
+        },
+        {
+          "Name": "Wait for IP timer",
+          "Description": ""
+        },
+		
+		
+		
+		
+		
         {
           "Name": "Prepare for collection",
           "Description": ""
@@ -815,10 +824,6 @@
           "Name": "IpMinutes",
           "Description": "",
           "Value": 60.0
-        },
-        {
-          "Name": "Adjust sample setpoint",
-          "Description": ""
         },
         {
           "Name": "Admit O2 into Inlet Port",
@@ -865,10 +870,6 @@
           "Name": "IpMinutes",
           "Description": "",
           "Value": 60.0
-        },
-        {
-          "Name": "Adjust sample setpoint",
-          "Description": ""
         },
         {
           "Name": "Admit O2 into Inlet Port",
@@ -7703,7 +7704,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
-      "NearAirTemperature": 60.0,
+      "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
       "IdleTimeout": 500,
@@ -11647,6 +11648,11 @@
         "Description": "The minimum final mass for a diluted sample. Dilution is disabled unless DilutedSampleMicrogramsCarbon > SmallSampleMicrogramsCarbon"
       },
       {
+        "ParameterName": "EnableIpRamp",
+        "Value": 0.0,
+        "Description": "Enable the setpoint ramper for the active inlet port's sample furnace."
+      },
+      {
         "ParameterName": "ExtractionMinutes",
         "Value": 4.0,
         "Description": "Time to spend extracting CO2 from the VTT into the MC."
@@ -11718,8 +11724,8 @@
       },
       {
         "ParameterName": "IpEvacuationPressure",
-        "Value": 0.1,
-        "Description": "Pressure to use when evacuating an IP."
+        "Value": 0.005,
+        "Description": "Pressure to use when evacuating an IP (OkPressure by default)."
       },
       {
         "ParameterName": "IpMinutes",
@@ -11842,6 +11848,11 @@
         "Description": "Something's wrong if collection takes this long; this check is disabled if the value is not a number."
       },
       {
+        "ParameterName": "NotifySampleFurnaceNeeded",
+        "Value": 0.0,
+        "Description": "Notify the operator to raise Sample furnace when ready to begin combustion."
+      },
+      {
         "ParameterName": "OkPressure",
         "Value": 0.005,
         "Description": "Low enough to join sections for drying."
@@ -11946,5 +11957,6 @@
   "MC_Split": "MC_Split",
   "SampleMeter": "ugCinMC",
   "IpOvenRamper": "IpOvenRamper",
-  "Sample": null
+  "Sample": null,
+  "CollectedSample": null
 }
