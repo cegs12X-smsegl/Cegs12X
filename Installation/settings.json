@@ -1750,12 +1750,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.0013679964641813611,
-                "Item2": 0.0
+                "Input": 0.0013679964641813611,
+                "Output": 0.0
               },
               {
-                "Item1": 6.6826,
-                "Item2": 100.0
+                "Input": 6.6826,
+                "Output": 100.0
               }
             ]
           }
@@ -1802,12 +1802,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.019386500094995183,
-                "Item2": 0.0
+                "Input": 0.019386500094995183,
+                "Output": 0.0
               },
               {
-                "Item1": 8.1832,
-                "Item2": 10.0
+                "Input": 8.1832,
+                "Output": 10.0
               }
             ]
           }
@@ -1854,12 +1854,12 @@
             "Name": "VoltageCorrection",
             "CalibrationData": [
               {
-                "Item1": 1.0,
-                "Item2": 1.0
+                "Input": 1.0,
+                "Output": 1.0
               },
               {
-                "Item1": 9.0,
-                "Item2": 9.0
+                "Input": 9.0,
+                "Output": 9.0
               }
             ]
           },
@@ -1922,12 +1922,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.4548206149690442,
-                "Item2": 0.0
+                "Input": 0.4548206149690442,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3912,
-                "Item2": 760.0
+                "Input": 2.3912,
+                "Output": 760.0
               }
             ]
           }
@@ -1974,12 +1974,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.4690822066431421,
-                "Item2": 0.0
+                "Input": 0.4690822066431421,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3908,
-                "Item2": 760.0
+                "Input": 2.3908,
+                "Output": 760.0
               }
             ]
           }
@@ -2026,12 +2026,12 @@
             "Name": "VoltageCorrection",
             "CalibrationData": [
               {
-                "Item1": 1.0,
-                "Item2": 1.0
+                "Input": 1.0,
+                "Output": 1.0
               },
               {
-                "Item1": 9.0,
-                "Item2": 9.0
+                "Input": 9.0,
+                "Output": 9.0
               }
             ]
           },
@@ -2090,12 +2090,12 @@
             "Name": "VoltageCorrection",
             "CalibrationData": [
               {
-                "Item1": 0.0,
-                "Item2": 0.0
+                "Input": 0.0,
+                "Output": 0.0
               },
               {
-                "Item1": 10.0,
-                "Item2": 10.0
+                "Input": 10.0,
+                "Output": 10.0
               }
             ]
           },
@@ -2162,12 +2162,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.5154923497260064,
-                "Item2": 0.0
+                "Input": 0.5154923497260064,
+                "Output": 0.0
               },
               {
-                "Item1": 2.4099,
-                "Item2": 760.0
+                "Input": 2.4099,
+                "Output": 760.0
               }
             ]
           }
@@ -2208,12 +2208,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.5092748872652337,
-                "Item2": 0.0
+                "Input": 0.5092748872652337,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3995,
-                "Item2": 760.0
+                "Input": 2.3995,
+                "Output": 760.0
               }
             ]
           }
@@ -2254,12 +2254,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.45448003343352567,
-                "Item2": 0.0
+                "Input": 0.45448003343352567,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3916,
-                "Item2": 760.0
+                "Input": 2.3916,
+                "Output": 760.0
               }
             ]
           }
@@ -2300,12 +2300,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.4766264585585173,
-                "Item2": 0.0
+                "Input": 0.4766264585585173,
+                "Output": 0.0
               },
               {
-                "Item1": 2.4062,
-                "Item2": 760.0
+                "Input": 2.4062,
+                "Output": 760.0
               }
             ]
           }
@@ -2346,12 +2346,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.4671260664543677,
-                "Item2": 0.0
+                "Input": 0.4671260664543677,
+                "Output": 0.0
               },
               {
-                "Item1": 2.4026,
-                "Item2": 760.0
+                "Input": 2.4026,
+                "Output": 760.0
               }
             ]
           }
@@ -2392,12 +2392,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.4839701811905244,
-                "Item2": 0.0
+                "Input": 0.4839701811905244,
+                "Output": 0.0
               },
               {
-                "Item1": 2.4877,
-                "Item2": 760.0
+                "Input": 2.4877,
+                "Output": 760.0
               }
             ]
           }
@@ -2438,12 +2438,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.46984414635304783,
-                "Item2": 0.0
+                "Input": 0.46984414635304783,
+                "Output": 0.0
               },
               {
-                "Item1": 2.4029,
-                "Item2": 760.0
+                "Input": 2.4029,
+                "Output": 760.0
               }
             ]
           }
@@ -2484,12 +2484,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.45027993861717674,
-                "Item2": 0.0
+                "Input": 0.45027993861717674,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3781,
-                "Item2": 760.0
+                "Input": 2.3781,
+                "Output": 760.0
               }
             ]
           }
@@ -2530,12 +2530,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.45426159196738297,
-                "Item2": 0.0
+                "Input": 0.45426159196738297,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3876,
-                "Item2": 760.0
+                "Input": 2.3876,
+                "Output": 760.0
               }
             ]
           }
@@ -2576,12 +2576,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.4598373972210324,
-                "Item2": 0.0
+                "Input": 0.4598373972210324,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3922,
-                "Item2": 760.0
+                "Input": 2.3922,
+                "Output": 760.0
               }
             ]
           }
@@ -2622,12 +2622,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.43609098537033797,
-                "Item2": 0.0
+                "Input": 0.43609098537033797,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3593,
-                "Item2": 760.0
+                "Input": 2.3593,
+                "Output": 760.0
               }
             ]
           }
@@ -2668,12 +2668,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.4531975439621875,
-                "Item2": 0.0
+                "Input": 0.4531975439621875,
+                "Output": 0.0
               },
               {
-                "Item1": 2.3954,
-                "Item2": 760.0
+                "Input": 2.3954,
+                "Output": 760.0
               }
             ]
           }
@@ -2714,12 +2714,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Item1": 0.48,
-                "Item2": 0.0
+                "Input": 0.48,
+                "Output": 0.0
               },
               {
-                "Item1": 2.4673,
-                "Item2": 760.0
+                "Input": 2.4673,
+                "Output": 760.0
               }
             ]
           }
@@ -2760,12 +2760,12 @@
             "Name": "VoltsToDegC",
             "CalibrationData": [
               {
-                "Item1": 0.425,
-                "Item2": 15.0
+                "Input": 0.425,
+                "Output": 15.0
               },
               {
-                "Item1": 1.0073,
-                "Item2": 30.0
+                "Input": 1.0073,
+                "Output": 30.0
               }
             ]
           }
@@ -2806,20 +2806,20 @@
             "Name": "VoltsToDegC",
             "CalibrationData": [
               {
-                "Item1": 0.673,
-                "Item2": 15.0
+                "Input": 0.673,
+                "Output": 15.0
               },
               {
-                "Item1": 0.774,
-                "Item2": 20.0
+                "Input": 0.774,
+                "Output": 20.0
               },
               {
-                "Item1": 0.917,
-                "Item2": 27.0
+                "Input": 0.917,
+                "Output": 27.0
               },
               {
-                "Item1": 1.08,
-                "Item2": 35.0
+                "Input": 1.08,
+                "Output": 35.0
               }
             ]
           }
