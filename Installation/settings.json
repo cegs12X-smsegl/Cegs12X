@@ -740,7 +740,7 @@
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
           "Name": "IpSetpoint",
           "Description": "",
-          "Value": 150.0
+          "Value": 380.0
         },
         {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
@@ -818,7 +818,7 @@
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
           "Name": "IpSetpoint",
           "Description": "",
-          "Value": 625.0
+          "Value": 550.0
         },
         {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
@@ -920,7 +920,7 @@
       "$type": "AeonHacs.Components.LabJackU6, AeonHacs.Core",
       "Name": "Daq",
       "Description": "Data Acquisition System",
-      "LocalId": 1,
+      "LocalId": 3,
       "MinimumRetrievalInterval": 50,
       "SettlingTimeIndex": 3,
       "ResolutionIndex": 8,
@@ -1738,12 +1738,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.016655486803451903,
+                "Input": 0.011349672317728652,
                 "Output": 0.0
               },
               {
-                "Input": 6.8324,
-                "Output": 104.4
+                "Input": 6.6826,
+                "Output": 100.0
               }
             ]
           }
@@ -1790,12 +1790,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.006641828845705464,
+                "Input": 0.002329126851875187,
                 "Output": 0.0
               },
               {
-                "Input": 8.3502,
-                "Output": 10.45
+                "Input": 8.1832,
+                "Output": 10.0
               }
             ]
           }
@@ -1842,12 +1842,12 @@
             "Name": "VoltageCorrection",
             "CalibrationData": [
               {
-                "Input": 0.49621754928716183,
-                "Output": 0.0
+                "Input": 6.491402616652674,
+                "Output": 1.0
               },
               {
-                "Input": 2.3398,
-                "Output": 699.6
+                "Input": 9.0,
+                "Output": 9.0
               }
             ]
           },
@@ -1910,12 +1910,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.49621754928716183,
+                "Input": 0.4528536842498575,
                 "Output": 0.0
               },
               {
-                "Input": 2.3398,
-                "Output": 699.6
+                "Input": 2.3912,
+                "Output": 760.0
               }
             ]
           }
@@ -1962,12 +1962,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.5063379152492451,
+                "Input": 0.47038192524213435,
                 "Output": 0.0
               },
               {
-                "Input": 2.3542,
-                "Output": 699.6
+                "Input": 2.3908,
+                "Output": 760.0
               }
             ]
           }
@@ -1987,53 +1987,7 @@
     },
     "pVM_HP": {
       "$type": "AeonHacs.Components.AIManometer, AeonHacs.Core",
-      "Name": "pVM_GP",
-      "Description": "Vacuum manifold gross pressure",
-      "MaximumVoltage": 10.0,
-      "AnalogInputMode": "SingleEnded",
-      "MinimumVoltage": -10.0,
-      "UnitSymbol": "Torr",
-      "Ratiometric": true,
-      "MaxValue": 1551.0,
-      "MinValue": 0.0,
-      "Sensitivity": 0.1,
-      "Resolution": 0.1,
-      "ResolutionIsProportional": false,
-      "Filter": {
-        "$type": "AeonHacs.ExponentialFilter, AeonHacs.Core",
-        "Name": "",
-        "Description": "",
-        "Power": 2.0,
-        "StepChange": 0.005
-      },
-      "Conversion": {
-        "Name": "ValueConversion",
-        "Operations": [
-          {
-            "$type": "AeonHacs.PchipInterpolator, AeonHacs.Core",
-            "Name": "VoltsToTorr",
-            "CalibrationData": [
-              {
-                "Input": 0.491840002790119,
-                "Output": 0.0
-              },
-              {
-                "Input": 2.3385,
-                "Output": 699.6
-              }
-            ]
-          }
-        ]
-      },
-      "RateOfChange": null,
-      "Stable": 0.5,
-      "Falling": -0.5,
-      "Rising": 0.5,
-      "ZerosToAverage": 30
-    },
-    "pVM_LP": {
-      "$type": "AeonHacs.Components.AIManometer, AeonHacs.Core",
-      "Name": "pVM_LP",
+      "Name": "pVM_HP",
       "Description": "Vacuum manifold low pressure",
       "MaximumVoltage": 10.0,
       "AnalogInputMode": "SingleEnded",
@@ -2060,40 +2014,12 @@
             "Name": "VoltageCorrection",
             "CalibrationData": [
               {
-                "Input": 1.2919,
-                "Output": 0.8543
+                "Input": 1.0,
+                "Output": 1.0
               },
               {
-                "Input": 2.1859,
-                "Output": 1.0294
-              },
-              {
-                "Input": 3.3536,
-                "Output": 2.0086
-              },
-              {
-                "Input": 4.5972,
-                "Output": 3.0
-              },
-              {
-                "Input": 4.9702,
-                "Output": 5.0382
-              },
-              {
-                "Input": 5.9773,
-                "Output": 6.0673
-              },
-              {
-                "Input": 6.7009,
-                "Output": 6.7898
-              },
-              {
-                "Input": 7.8707,
-                "Output": 7.9636
-              },
-              {
-                "Input": 8.7574,
-                "Output": 8.8448
+                "Input": 9.0,
+                "Output": 9.0
               }
             ]
           },
@@ -2156,8 +2082,8 @@
                 "Output": 0.0
               },
               {
-                "Input": 8.0091,
-                "Output": 9.98
+                "Input": 10.0,
+                "Output": 10.0
               }
             ]
           },
@@ -2224,12 +2150,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.5024755306109031,
+                "Input": 0.6032654183086985,
                 "Output": 0.0
               },
               {
-                "Input": 2.3584,
-                "Output": 699.6
+                "Input": 2.4099,
+                "Output": 760.0
               }
             ]
           }
@@ -2270,12 +2196,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.48502904717936063,
+                "Input": 0.7563535270444844,
                 "Output": 0.0
               },
               {
-                "Input": 2.3389,
-                "Output": 699.6
+                "Input": 2.3995,
+                "Output": 760.0
               }
             ]
           }
@@ -2316,12 +2242,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.511582771212074,
+                "Input": 0.4469334075188614,
                 "Output": 0.0
               },
               {
-                "Input": 2.351,
-                "Output": 699.6
+                "Input": 2.3916,
+                "Output": 760.0
               }
             ]
           }
@@ -2362,12 +2288,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.513530566543172,
+                "Input": 0.47019423814837397,
                 "Output": 0.0
               },
               {
-                "Input": 2.3726,
-                "Output": 699.6
+                "Input": 2.4062,
+                "Output": 760.0
               }
             ]
           }
@@ -2408,12 +2334,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.509687309190977,
+                "Input": 0.4795949614319357,
                 "Output": 0.0
               },
               {
-                "Input": 2.3634,
-                "Output": 699.6
+                "Input": 2.4026,
+                "Output": 760.0
               }
             ]
           }
@@ -2454,12 +2380,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.499810463714926,
+                "Input": 0.48207398759891296,
                 "Output": 0.0
               },
               {
-                "Input": 2.3489,
-                "Output": 699.6
+                "Input": 2.4877,
+                "Output": 760.0
               }
             ]
           }
@@ -2500,12 +2426,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.5077413033104803,
+                "Input": 0.4649658779221858,
                 "Output": 0.0
               },
               {
-                "Input": 2.3535,
-                "Output": 699.6
+                "Input": 2.4029,
+                "Output": 760.0
               }
             ]
           }
@@ -2546,12 +2472,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.493919501286593,
+                "Input": 0.47473183141123115,
                 "Output": 0.0
               },
               {
-                "Input": 2.3364,
-                "Output": 699.6
+                "Input": 2.3781,
+                "Output": 760.0
               }
             ]
           }
@@ -2592,12 +2518,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.485995792089806,
+                "Input": 0.45375691429805254,
                 "Output": 0.0
               },
               {
-                "Input": 2.3316,
-                "Output": 699.6
+                "Input": 2.3876,
+                "Output": 760.0
               }
             ]
           }
@@ -2638,12 +2564,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.48264922156404,
+                "Input": 0.4521109311435601,
                 "Output": 0.0
               },
               {
-                "Input": 2.3307,
-                "Output": 699.6
+                "Input": 2.3922,
+                "Output": 760.0
               }
             ]
           }
@@ -2684,12 +2610,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.500587159290513,
+                "Input": 0.46280697334308046,
                 "Output": 0.0
               },
               {
-                "Input": 2.3417,
-                "Output": 699.6
+                "Input": 2.3593,
+                "Output": 760.0
               }
             ]
           }
@@ -2730,12 +2656,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.499810463714926,
+                "Input": 0.4651112609812063,
                 "Output": 0.0
               },
               {
-                "Input": 2.3489,
-                "Output": 699.6
+                "Input": 2.3954,
+                "Output": 760.0
               }
             ]
           }
@@ -2776,12 +2702,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.503,
+                "Input": 0.48,
                 "Output": 0.0
               },
               {
-                "Input": 2.3616,
-                "Output": 699.6
+                "Input": 2.4673,
+                "Output": 760.0
               }
             ]
           }
@@ -2822,11 +2748,11 @@
             "Name": "VoltsToDegC",
             "CalibrationData": [
               {
-                "Input": 0.692,
+                "Input": 0.425,
                 "Output": 15.0
               },
               {
-                "Input": 0.985,
+                "Input": 1.0073,
                 "Output": 30.0
               }
             ]
@@ -2868,19 +2794,19 @@
             "Name": "VoltsToDegC",
             "CalibrationData": [
               {
-                "Input": 0.758,
-                "Output": 15.1
+                "Input": 0.673,
+                "Output": 15.0
               },
               {
-                "Input": 0.827,
+                "Input": 0.774,
                 "Output": 20.0
               },
               {
-                "Input": 0.93,
-                "Output": 27.1
+                "Input": 0.917,
+                "Output": 27.0
               },
               {
-                "Input": 1.002,
+                "Input": 1.08,
                 "Output": 35.0
               }
             ]
@@ -4239,8 +4165,8 @@
       "$type": "AeonHacs.Components.CpwValve, AeonHacs.Core",
       "Name": "vHV",
       "Description": "Vacuum system high vacuum valve",
-      "ValveState": "Opened",
-      "Position": 750,
+      "ValveState": "Closed",
+      "Position": 1775,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4291,8 +4217,8 @@
       "$type": "AeonHacs.Components.CpwValve, AeonHacs.Core",
       "Name": "vB",
       "Description": "Vacuum system turbo pump backing valve",
-      "ValveState": "Opened",
-      "Position": 765,
+      "ValveState": "Closed",
+      "Position": 1840,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4314,8 +4240,8 @@
       "$type": "AeonHacs.Components.CpwValve, AeonHacs.Core",
       "Name": "vR",
       "Description": "Vacuum system roughing pump valve",
-      "ValveState": "Opened",
-      "Position": 735,
+      "ValveState": "Closed",
+      "Position": 1690,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4337,14 +4263,14 @@
       "$type": "AeonHacs.Components.CpwValve, AeonHacs.Core",
       "Name": "vIMC_VM",
       "Description": "IMC-VM valve",
-      "ValveState": "Opened",
-      "Position": 1360,
+      "ValveState": "Closed",
+      "Position": 1900,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1930,
+          "Value": 1900,
           "Incremental": false,
           "Configuration": "t0.8"
         },
@@ -4360,8 +4286,8 @@
       "$type": "AeonHacs.Components.CpwValve, AeonHacs.Core",
       "Name": "vCT_VM",
       "Description": "CT-VM valve",
-      "ValveState": "Opened",
-      "Position": 1220,
+      "ValveState": "Closed",
+      "Position": 1830,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4407,13 +4333,13 @@
       "Name": "vHe_VM",
       "Description": "He-VM gas shutoff valve",
       "ValveState": "Closed",
-      "Position": 1780,
+      "Position": 1860,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
         {
           "Name": "Close",
-          "Value": 1780,
+          "Value": 1860,
           "Incremental": false,
           "Configuration": "t0.8"
         },
@@ -4636,8 +4562,8 @@
       "$type": "AeonHacs.Components.CpwValve, AeonHacs.Core",
       "Name": "vIML_IMC",
       "Description": "IML-IMC valve",
-      "ValveState": "Opened",
-      "Position": 1180,
+      "ValveState": "Closed",
+      "Position": 1750,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4797,8 +4723,8 @@
       "$type": "AeonHacs.Components.CpwValve, AeonHacs.Core",
       "Name": "vIMR_IMC",
       "Description": "IMT-IMC valve",
-      "ValveState": "Opened",
-      "Position": 1160,
+      "ValveState": "Closed",
+      "Position": 1725,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -4958,8 +4884,8 @@
       "$type": "AeonHacs.Components.CpwValve, AeonHacs.Core",
       "Name": "vSplit_GMC",
       "Description": "Split-GM valve",
-      "ValveState": "Opened",
-      "Position": 1190,
+      "ValveState": "Closed",
+      "Position": 1800,
       "OpenedVolumeDelta": 0.0,
       "IdleCurrentLimit": 80,
       "ActuatorOperations": [
@@ -5345,13 +5271,13 @@
         },
         {
           "Name": "ColdTrickle",
-          "Value": 1375,
+          "Value": 1295,
           "Incremental": false,
           "Configuration": "t1.0"
         },
         {
           "Name": "WarmTrickle",
-          "Value": 1365,
+          "Value": 1275,
           "Incremental": false,
           "Configuration": "t1.0"
         },
@@ -5839,9 +5765,9 @@
       "Description": "Coil trap flow valve",
       "Position": 0,
       "MinimumPosition": 0,
-      "MaximumPosition": 675,
+      "MaximumPosition": 682,
       "PositionsPerTurn": 96,
-      "ClosedOffset": 3,
+      "ClosedOffset": 10,
       "Calibrated": true,
       "ConsecutiveMatches": 9,
       "ValveState": "Opened",
@@ -6421,7 +6347,7 @@
       "Description": "Inlet port 1 sample furnace",
       "ThermocoupleChannel": 4,
       "PidSetup": "PID_IP1",
-      "Setpoint": 625.0,
+      "Setpoint": 200.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6450,7 +6376,7 @@
       "Description": "Inlet port 2 sample furnace",
       "ThermocoupleChannel": 2,
       "PidSetup": "PID_IP2",
-      "Setpoint": 625.0,
+      "Setpoint": 380.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6508,7 +6434,7 @@
       "Description": "Inlet port 4 sample furnace",
       "ThermocoupleChannel": 4,
       "PidSetup": "PID_IP4",
-      "Setpoint": 625.0,
+      "Setpoint": 200.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6537,7 +6463,7 @@
       "Description": "Inlet port 5 sample furnace",
       "ThermocoupleChannel": 2,
       "PidSetup": "PID_IP5",
-      "Setpoint": 625.0,
+      "Setpoint": 850.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6566,7 +6492,7 @@
       "Description": "Inlet port 6 sample furnace",
       "ThermocoupleChannel": 0,
       "PidSetup": "PID_IP6",
-      "Setpoint": 625.0,
+      "Setpoint": 200.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -6653,7 +6579,7 @@
       "Description": "Inlet port 9 sample furnace",
       "ThermocoupleChannel": 0,
       "PidSetup": "PID_IP9",
-      "Setpoint": 625.0,
+      "Setpoint": 200.0,
       "MinimumSetpoint": 0.0,
       "MaximumSetpoint": 850.0,
       "StopAction": "None",
@@ -8162,7 +8088,7 @@
       "RoughingValve": "vR",
       "VacuumManifold": "VM",
       "MySection": "VS1All",
-      "State": "Evacuate",
+      "State": "Standby",
       "BaselinePressure": 0.0005,
       "GoodBackingPressure": 4.0,
       "HighVacuumPreferredPressure": 7.0,
@@ -8276,7 +8202,7 @@
       "$type": "AeonHacs.Components.Chamber, AeonHacs.Core",
       "Name": "Split",
       "Description": "Split chamber",
-      "MilliLiters": 2.1280058536354702,
+      "MilliLiters": 2.233,
       "Manometer": null,
       "Thermometer": null,
       "Heater": null,
@@ -10211,9 +10137,9 @@
       "FlowManager": "H2.GMFlowManager",
       "Destination": "GMC_GML",
       "Path": "VM",
-      "PurgePressure": 5.0,
+      "PurgePressure": 14.0,
       "SecondsToPurge": 20,
-      "SecondsToPressurize": 20
+      "SecondsToPressurize": 180
     },
     "H2.GMR": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10227,9 +10153,9 @@
       "FlowManager": "H2.GMFlowManager",
       "Destination": "GMC_GMR",
       "Path": "VM",
-      "PurgePressure": 5.0,
+      "PurgePressure": 14.0,
       "SecondsToPurge": 20,
-      "SecondsToPressurize": 20
+      "SecondsToPressurize": 180
     },
     "He.GM": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10259,9 +10185,9 @@
       "FlowManager": "He.GMFlowManager",
       "Destination": "GMC_GML",
       "Path": "VM",
-      "PurgePressure": 5.0,
+      "PurgePressure": 10.0,
       "SecondsToPurge": 20,
-      "SecondsToPressurize": 20
+      "SecondsToPressurize": 180
     },
     "He.GMR": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10275,9 +10201,9 @@
       "FlowManager": "He.GMFlowManager",
       "Destination": "GMC_GMR",
       "Path": "VM",
-      "PurgePressure": 5.0,
+      "PurgePressure": 10.0,
       "SecondsToPurge": 20,
-      "SecondsToPressurize": 20
+      "SecondsToPressurize": 180
     },
     "He.IM": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10307,7 +10233,7 @@
       "FlowManager": "He.IMFlowManager",
       "Destination": "IML_IMC",
       "Path": "VM",
-      "PurgePressure": 5.0,
+      "PurgePressure": 10.0,
       "SecondsToPurge": 20,
       "SecondsToPressurize": 20
     },
@@ -10323,7 +10249,7 @@
       "FlowManager": "He.IMFlowManager",
       "Destination": "IMR_IMC",
       "Path": "VM",
-      "PurgePressure": 5.0,
+      "PurgePressure": 10.0,
       "SecondsToPurge": 20,
       "SecondsToPressurize": 20
     },
@@ -11617,7 +11543,7 @@
       "$type": "AeonHacs.Components.OvenRamper, AeonHacs.Core",
       "Name": "IpOvenRamper",
       "Description": "",
-      "RateDegreesPerMinute": 20.0,
+      "RateDegreesPerMinute": 9.0,
       "IdleTimeout": 500,
       "LogEverything": false
     }
