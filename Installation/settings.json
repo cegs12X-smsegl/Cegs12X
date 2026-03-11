@@ -83,7 +83,7 @@
         },
         {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
-          "Name": "EnableIpRamp",
+          "Name": "EnableIpSetpointRamp",
           "Description": "",
           "Value": 1.0
         },
@@ -159,7 +159,7 @@
         },
         {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
-          "Name": "EnableIpRamp",
+          "Name": "EnableIpSetpointRamp",
           "Description": "",
           "Value": 0.0
         },
@@ -391,6 +391,10 @@
           "Description": ""
         },
         {
+          "Name": "Transfer CO2 from CT to VTT",
+          "Description": ""
+        },
+        {
           "Name": "Extract",
           "Description": ""
         },
@@ -412,6 +416,10 @@
         },
         {
           "Name": "Collect CO2 from InletPort",
+          "Description": ""
+        },
+        {
+          "Name": "Transfer CO2 from CT to VTT",
           "Description": ""
         },
         {
@@ -474,6 +482,10 @@
         },
         {
           "Name": "Collect CO2 from InletPort",
+          "Description": ""
+        },
+        {
+          "Name": "Transfer CO2 from CT to VTT",
           "Description": ""
         },
         {
@@ -580,7 +592,7 @@
         },
         {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
-          "Name": "EnableIpRamp",
+          "Name": "EnableIpSetpointRamp",
           "Description": "",
           "Value": 1.0
         },
@@ -648,7 +660,7 @@
         },
         {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
-          "Name": "EnableIpRamp",
+          "Name": "EnableIpSetpointRamp",
           "Description": "",
           "Value": 0.0
         },
@@ -698,7 +710,7 @@
         },
         {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
-          "Name": "EnableIpRamp",
+          "Name": "EnableIpSetpointRamp",
           "Description": "",
           "Value": 1.0
         },
@@ -757,6 +769,10 @@
           "Description": ""
         },
         {
+          "Name": "Admit O2 into Inlet Port",
+          "Description": ""
+        },
+        {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
           "Name": "IpSetpoint",
           "Description": "",
@@ -769,14 +785,6 @@
           "Value": 15.0
         },
         {
-          "Name": "Admit O2 into Inlet Port",
-          "Description": ""
-        },
-        {
-          "Name": "Turn on sample furnace",
-          "Description": ""
-        },
-        {
           "Name": "Wait for sample to rise to setpoint",
           "Description": ""
         },
@@ -785,15 +793,11 @@
           "Description": ""
         },
         {
-          "Name": "Collect CO2 from InletPort",
-          "Description": "Collect Split 1"
-        },
-        {
-          "Name": "Wait for VTT..GM to be free",
+          "Name": "Start collecting",
           "Description": ""
         },
         {
-          "Name": "Transfer CO2 from CT to VTT",
+          "Name": "Collect sample gas, then launch Transfer, etc.",
           "Description": ""
         },
         {
@@ -803,10 +807,6 @@
         {
           "Name": "Admit O2 into Inlet Port",
           "Description": ""
-        },
-        {
-          "Name": "Launch Extract, etc",
-          "Description": "Start Split 1 extraction"
         },
         {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
@@ -835,15 +835,11 @@
           "Description": ""
         },
         {
-          "Name": "Collect CO2 from InletPort",
+          "Name": "Start collecting",
           "Description": ""
         },
         {
-          "Name": "Wait for VTT..GM to be free",
-          "Description": ""
-        },
-        {
-          "Name": "Transfer CO2 from CT to VTT",
+          "Name": "Collect sample gas, then launch Transfer, etc.",
           "Description": ""
         },
         {
@@ -855,12 +851,8 @@
           "Description": ""
         },
         {
-          "Name": "Launch Extract, etc",
-          "Description": "Begin Split 2 extraction"
-        },
-        {
           "$type": "AeonHacs.Components.ParameterStep, AeonHacs.Core",
-          "Name": "EnableIpRamp",
+          "Name": "EnableIpSetpointRamp",
           "Description": "Disable ramp for top speed.",
           "Value": 0.0
         },
@@ -891,27 +883,23 @@
           "Description": ""
         },
         {
-          "Name": "Collect CO2 from InletPort",
-          "Description": "Collect Split 3"
-        },
-        {
-          "Name": "Wait for VTT..GM to be free",
+          "Name": "Start collecting",
           "Description": ""
         },
         {
-          "Name": "Transfer CO2 from CT to VTT",
+          "Name": "Collect sample gas, then launch Transfer, etc.",
           "Description": ""
         },
         {
-          "Name": "Launch Extract, etc",
-          "Description": "Begin Split 3 extraction"
-        },
-        {
-          "Name": "Wait for VTT..GM to be free",
+          "Name": "Turn off IP furnaces",
           "Description": ""
         },
         {
-          "Name": "Graphitize all collected splits",
+          "Name": "Wait for CEGS to be free",
+          "Description": ""
+        },
+        {
+          "Name": "Graphitize aliquots",
           "Description": ""
         },
         {
@@ -1750,12 +1738,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.0013679964641813611,
+                "Input": 0.016655486803451903,
                 "Output": 0.0
               },
               {
-                "Input": 6.6826,
-                "Output": 100.0
+                "Input": 6.8324,
+                "Output": 104.4
               }
             ]
           }
@@ -1802,12 +1790,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.019386500094995183,
+                "Input": 0.006641828845705464,
                 "Output": 0.0
               },
               {
-                "Input": 8.1832,
-                "Output": 10.0
+                "Input": 8.3502,
+                "Output": 10.45
               }
             ]
           }
@@ -1854,12 +1842,12 @@
             "Name": "VoltageCorrection",
             "CalibrationData": [
               {
-                "Input": 1.0,
-                "Output": 1.0
+                "Input": 0.49621754928716183,
+                "Output": 0.0
               },
               {
-                "Input": 9.0,
-                "Output": 9.0
+                "Input": 2.3398,
+                "Output": 699.6
               }
             ]
           },
@@ -1922,12 +1910,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.4548206149690442,
+                "Input": 0.49621754928716183,
                 "Output": 0.0
               },
               {
-                "Input": 2.3912,
-                "Output": 760.0
+                "Input": 2.3398,
+                "Output": 699.6
               }
             ]
           }
@@ -1974,12 +1962,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.4690822066431421,
+                "Input": 0.5063379152492451,
                 "Output": 0.0
               },
               {
-                "Input": 2.3908,
-                "Output": 760.0
+                "Input": 2.3542,
+                "Output": 699.6
               }
             ]
           }
@@ -1999,7 +1987,53 @@
     },
     "pVM_HP": {
       "$type": "AeonHacs.Components.AIManometer, AeonHacs.Core",
-      "Name": "pVM_HP",
+      "Name": "pVM_GP",
+      "Description": "Vacuum manifold gross pressure",
+      "MaximumVoltage": 10.0,
+      "AnalogInputMode": "SingleEnded",
+      "MinimumVoltage": -10.0,
+      "UnitSymbol": "Torr",
+      "Ratiometric": true,
+      "MaxValue": 1551.0,
+      "MinValue": 0.0,
+      "Sensitivity": 0.1,
+      "Resolution": 0.1,
+      "ResolutionIsProportional": false,
+      "Filter": {
+        "$type": "AeonHacs.ExponentialFilter, AeonHacs.Core",
+        "Name": "",
+        "Description": "",
+        "Power": 2.0,
+        "StepChange": 0.005
+      },
+      "Conversion": {
+        "Name": "ValueConversion",
+        "Operations": [
+          {
+            "$type": "AeonHacs.PchipInterpolator, AeonHacs.Core",
+            "Name": "VoltsToTorr",
+            "CalibrationData": [
+              {
+                "Input": 0.491840002790119,
+                "Output": 0.0
+              },
+              {
+                "Input": 2.3385,
+                "Output": 699.6
+              }
+            ]
+          }
+        ]
+      },
+      "RateOfChange": null,
+      "Stable": 0.5,
+      "Falling": -0.5,
+      "Rising": 0.5,
+      "ZerosToAverage": 30
+    },
+    "pVM_LP": {
+      "$type": "AeonHacs.Components.AIManometer, AeonHacs.Core",
+      "Name": "pVM_LP",
       "Description": "Vacuum manifold low pressure",
       "MaximumVoltage": 10.0,
       "AnalogInputMode": "SingleEnded",
@@ -2026,12 +2060,40 @@
             "Name": "VoltageCorrection",
             "CalibrationData": [
               {
-                "Input": 1.0,
-                "Output": 1.0
+                "Input": 1.2919,
+                "Output": 0.8543
               },
               {
-                "Input": 9.0,
-                "Output": 9.0
+                "Input": 2.1859,
+                "Output": 1.0294
+              },
+              {
+                "Input": 3.3536,
+                "Output": 2.0086
+              },
+              {
+                "Input": 4.5972,
+                "Output": 3.0
+              },
+              {
+                "Input": 4.9702,
+                "Output": 5.0382
+              },
+              {
+                "Input": 5.9773,
+                "Output": 6.0673
+              },
+              {
+                "Input": 6.7009,
+                "Output": 6.7898
+              },
+              {
+                "Input": 7.8707,
+                "Output": 7.9636
+              },
+              {
+                "Input": 8.7574,
+                "Output": 8.8448
               }
             ]
           },
@@ -2094,8 +2156,8 @@
                 "Output": 0.0
               },
               {
-                "Input": 10.0,
-                "Output": 10.0
+                "Input": 8.0091,
+                "Output": 9.98
               }
             ]
           },
@@ -2162,12 +2224,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.5154923497260064,
+                "Input": 0.5024755306109031,
                 "Output": 0.0
               },
               {
-                "Input": 2.4099,
-                "Output": 760.0
+                "Input": 2.3584,
+                "Output": 699.6
               }
             ]
           }
@@ -2208,12 +2270,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.5092748872652337,
+                "Input": 0.48502904717936063,
                 "Output": 0.0
               },
               {
-                "Input": 2.3995,
-                "Output": 760.0
+                "Input": 2.3389,
+                "Output": 699.6
               }
             ]
           }
@@ -2254,12 +2316,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.45448003343352567,
+                "Input": 0.511582771212074,
                 "Output": 0.0
               },
               {
-                "Input": 2.3916,
-                "Output": 760.0
+                "Input": 2.351,
+                "Output": 699.6
               }
             ]
           }
@@ -2300,12 +2362,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.4766264585585173,
+                "Input": 0.513530566543172,
                 "Output": 0.0
               },
               {
-                "Input": 2.4062,
-                "Output": 760.0
+                "Input": 2.3726,
+                "Output": 699.6
               }
             ]
           }
@@ -2346,12 +2408,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.4671260664543677,
+                "Input": 0.509687309190977,
                 "Output": 0.0
               },
               {
-                "Input": 2.4026,
-                "Output": 760.0
+                "Input": 2.3634,
+                "Output": 699.6
               }
             ]
           }
@@ -2392,12 +2454,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.4839701811905244,
+                "Input": 0.499810463714926,
                 "Output": 0.0
               },
               {
-                "Input": 2.4877,
-                "Output": 760.0
+                "Input": 2.3489,
+                "Output": 699.6
               }
             ]
           }
@@ -2438,12 +2500,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.46984414635304783,
+                "Input": 0.5077413033104803,
                 "Output": 0.0
               },
               {
-                "Input": 2.4029,
-                "Output": 760.0
+                "Input": 2.3535,
+                "Output": 699.6
               }
             ]
           }
@@ -2484,12 +2546,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.45027993861717674,
+                "Input": 0.493919501286593,
                 "Output": 0.0
               },
               {
-                "Input": 2.3781,
-                "Output": 760.0
+                "Input": 2.3364,
+                "Output": 699.6
               }
             ]
           }
@@ -2530,12 +2592,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.45426159196738297,
+                "Input": 0.485995792089806,
                 "Output": 0.0
               },
               {
-                "Input": 2.3876,
-                "Output": 760.0
+                "Input": 2.3316,
+                "Output": 699.6
               }
             ]
           }
@@ -2576,12 +2638,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.4598373972210324,
+                "Input": 0.48264922156404,
                 "Output": 0.0
               },
               {
-                "Input": 2.3922,
-                "Output": 760.0
+                "Input": 2.3307,
+                "Output": 699.6
               }
             ]
           }
@@ -2622,12 +2684,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.43609098537033797,
+                "Input": 0.500587159290513,
                 "Output": 0.0
               },
               {
-                "Input": 2.3593,
-                "Output": 760.0
+                "Input": 2.3417,
+                "Output": 699.6
               }
             ]
           }
@@ -2668,12 +2730,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.4531975439621875,
+                "Input": 0.499810463714926,
                 "Output": 0.0
               },
               {
-                "Input": 2.3954,
-                "Output": 760.0
+                "Input": 2.3489,
+                "Output": 699.6
               }
             ]
           }
@@ -2714,12 +2776,12 @@
             "Name": "VoltsToTorr",
             "CalibrationData": [
               {
-                "Input": 0.48,
+                "Input": 0.503,
                 "Output": 0.0
               },
               {
-                "Input": 2.4673,
-                "Output": 760.0
+                "Input": 2.3616,
+                "Output": 699.6
               }
             ]
           }
@@ -2760,11 +2822,11 @@
             "Name": "VoltsToDegC",
             "CalibrationData": [
               {
-                "Input": 0.425,
+                "Input": 0.692,
                 "Output": 15.0
               },
               {
-                "Input": 1.0073,
+                "Input": 0.985,
                 "Output": 30.0
               }
             ]
@@ -2806,19 +2868,19 @@
             "Name": "VoltsToDegC",
             "CalibrationData": [
               {
-                "Input": 0.673,
-                "Output": 15.0
+                "Input": 0.758,
+                "Output": 15.1
               },
               {
-                "Input": 0.774,
+                "Input": 0.827,
                 "Output": 20.0
               },
               {
-                "Input": 0.917,
-                "Output": 27.0
+                "Input": 0.93,
+                "Output": 27.1
               },
               {
-                "Input": 1.08,
+                "Input": 1.002,
                 "Output": 35.0
               }
             ]
@@ -7719,6 +7781,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 15,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -7746,6 +7809,7 @@
         "MaximumMinutesToFreeze": 15,
         "MaximumMinutesToThaw": 20,
         "SecondsToWaitAfterRaised": 5,
+        "SecondsToWaitAfterFreezing": 10,
         "NearAirTemperature": 10.0,
         "StopAction": "None",
         "State": "Standby",
@@ -7787,6 +7851,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 7.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -7810,6 +7875,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -7833,6 +7899,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -7856,6 +7923,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -7879,6 +7947,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -7902,6 +7971,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -7925,6 +7995,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 10,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -7948,6 +8019,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 10,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -7971,6 +8043,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 10,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -7994,6 +8067,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 10,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -8017,6 +8091,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 10,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -8040,6 +8115,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 10,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -8063,6 +8139,7 @@
       "MaximumMinutesToFreeze": 10,
       "MaximumMinutesToThaw": 20,
       "SecondsToWaitAfterRaised": 8,
+      "SecondsToWaitAfterFreezing": 10,
       "NearAirTemperature": 10.0,
       "StopAction": "TurnOff",
       "State": "Standby",
@@ -10134,9 +10211,9 @@
       "FlowManager": "H2.GMFlowManager",
       "Destination": "GMC_GML",
       "Path": "VM",
-      "PurgePressure": 14.0,
+      "PurgePressure": 5.0,
       "SecondsToPurge": 20,
-      "SecondsToPressurize": 180
+      "SecondsToPressurize": 20
     },
     "H2.GMR": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10150,9 +10227,9 @@
       "FlowManager": "H2.GMFlowManager",
       "Destination": "GMC_GMR",
       "Path": "VM",
-      "PurgePressure": 14.0,
+      "PurgePressure": 5.0,
       "SecondsToPurge": 20,
-      "SecondsToPressurize": 180
+      "SecondsToPressurize": 20
     },
     "He.GM": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10182,9 +10259,9 @@
       "FlowManager": "He.GMFlowManager",
       "Destination": "GMC_GML",
       "Path": "VM",
-      "PurgePressure": 10.0,
+      "PurgePressure": 5.0,
       "SecondsToPurge": 20,
-      "SecondsToPressurize": 180
+      "SecondsToPressurize": 20
     },
     "He.GMR": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10198,9 +10275,9 @@
       "FlowManager": "He.GMFlowManager",
       "Destination": "GMC_GMR",
       "Path": "VM",
-      "PurgePressure": 10.0,
+      "PurgePressure": 5.0,
       "SecondsToPurge": 20,
-      "SecondsToPressurize": 180
+      "SecondsToPressurize": 20
     },
     "He.IM": {
       "$type": "AeonHacs.Components.GasSupply, AeonHacs.Core",
@@ -10230,7 +10307,7 @@
       "FlowManager": "He.IMFlowManager",
       "Destination": "IML_IMC",
       "Path": "VM",
-      "PurgePressure": 10.0,
+      "PurgePressure": 5.0,
       "SecondsToPurge": 20,
       "SecondsToPressurize": 20
     },
@@ -10246,7 +10323,7 @@
       "FlowManager": "He.IMFlowManager",
       "Destination": "IMR_IMC",
       "Path": "VM",
-      "PurgePressure": 10.0,
+      "PurgePressure": 5.0,
       "SecondsToPurge": 20,
       "SecondsToPressurize": 20
     },
@@ -11573,7 +11650,7 @@
     "DefaultParameters": [
       {
         "ParameterName": "CO2TransferMinutes",
-        "Value": 1.5,
+        "Value": 2.5,
         "Description": "Time to wait for CO2 transfer between chambers."
       },
       {
@@ -11589,12 +11666,22 @@
       {
         "ParameterName": "CollectCloseIpAtCtPressure",
         "Value": "NaN",
-        "Description": "During sample collection, close the Inlet Port when the Coil Trap pressure falls to this value, provided that it is a number (i.e., not NaN)."
+        "Description": "During sample collection, close the Inlet Port when the Coil Trap pressure falls to this value."
       },
       {
         "ParameterName": "CollectCloseIpAtPressure",
         "Value": "NaN",
-        "Description": "During sample collection, close the Inlet Port when the Inlet Manifold pressure falls to this value, provided that it is a number (i.e., not NaN)."
+        "Description": "During sample collection, close the Inlet Port when the Inlet Manifold pressure falls to this value."
+      },
+      {
+        "ParameterName": "CollectFreezeVttAtImFallsToPressure",
+        "Value": "NaN",
+        "Description": "During sample collection, start freezing the VTT when the Inlet Manifold pressure falls to this value."
+      },
+      {
+        "ParameterName": "CollectFreezeVttAtIpRisesToTemperature",
+        "Value": "NaN",
+        "Description": "During sample collection, start freezing the VTT when the InletPort temperature rises to this value."
       },
       {
         "ParameterName": "CollectUntilCtFlowFullyOpen",
@@ -11604,7 +11691,7 @@
       {
         "ParameterName": "CollectUntilCtPressureFalls",
         "Value": "NaN",
-        "Description": "Stop collecting when the Coil Trap pressure falls to or below this value, provided that it is a number (i.e., not NaN)."
+        "Description": "Stop collecting when the Coil Trap pressure falls to or below this value."
       },
       {
         "ParameterName": "CollectUntilMinutes",
@@ -11614,17 +11701,17 @@
       {
         "ParameterName": "CollectUntilTemperatureFalls",
         "Value": "NaN",
-        "Description": "Stop collecting into the coil trap when the Inlet Port temperature falls to this value, provided that it is a number (i.e., not NaN)."
+        "Description": "Stop collecting into the coil trap when the Inlet Port temperature falls to this value."
       },
       {
         "ParameterName": "CollectUntilTemperatureRises",
         "Value": "NaN",
-        "Description": "Stop collecting into the coil trap when the Inlet Port temperature rises to this value, provided that it is a number (i.e., not NaN)."
+        "Description": "Stop collecting into the coil trap when the Inlet Port temperature rises to this value."
       },
       {
         "ParameterName": "CollectUntilUgc",
         "Value": "NaN",
-        "Description": "Stop collecting into the coil trap when amount of carbon in the Coil Trap reaches this value, provided that it is a number (i.e., not NaN)."
+        "Description": "Stop collecting into the coil trap when amount of carbon in the Coil Trap reaches this value."
       },
       {
         "ParameterName": "CollectionMinutes",

@@ -87,7 +87,7 @@
                                 Background="Transparent"
                                 BorderBrush="{x:Static SystemColors.ActiveBorderBrush}" BorderThickness="0.5"
                                 Width="350" Margin="0,2,3,2" Padding="3,0" >
-                            <TextBlock 
+                            <TextBlock
                                 DataContext="{Binding Component.ProcessSubStep, ElementName=Cegs}"
                                 Text="{Binding Latest.Description, TargetNullValue=''}"
                                 wpf:View.Component="{Binding .}"
