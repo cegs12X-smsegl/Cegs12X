@@ -920,7 +920,7 @@
       "$type": "AeonHacs.Components.LabJackU6, AeonHacs.Core",
       "Name": "Daq",
       "Description": "Data Acquisition System",
-      "LocalId": 3,
+      "LocalId": 1,
       "MinimumRetrievalInterval": 50,
       "SettlingTimeIndex": 3,
       "ResolutionIndex": 8,
